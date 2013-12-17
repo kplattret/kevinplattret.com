@@ -16,7 +16,7 @@
 
                     <h3>Colophon</h3>
 
-                    <p>Designed, developed and maintained by <a href="/about">Kevin Plattret</a>. Hosted by <a href="//mediatemple.net">(mt)</a>. Fonts served by <a href="//typekit.com/fonts">Typekit</a>.</p>
+                    <p>Designed, developed and maintained by <a href="/about">Kevin Plattret</a>. Powered by <a href="//jekyllrb.com" target="_blank">Jekyll</a> and <a href="//github.com/kplattret/kplattret.github.io" target="_blank">GitHub</a>. Fonts served by <a href="//typekit.com/fonts" target="_blank">Typekit</a>.</p>
 
                 </div>
 
@@ -39,6 +39,22 @@
         r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
         ga('create','UA-26055002-2');ga('send','pageview');
     </script>
+
+    {% if page.comments %}
+        <script>
+            {%if page.disqus %}
+                var disqus_url = '{{ page.disqus }}';
+            {%else %}
+                var disqus_url = 'http://kevinplattret.me{{ page.url }}';
+            {% endif %}
+            var disqus_shortname = 'kevinplattret';
+            (function() {
+                var dsq = document.createElement('script');
+                dsq.async = dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                document.getElementsByTagName('head')[0].appendChild(dsq);
+            })();
+        </script>
+    {% endif %}
 
 </body>
 </html>

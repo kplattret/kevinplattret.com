@@ -97,7 +97,7 @@ h3 { font-size: 1.083em; } /* 26px */
 .footer .grid .col:first-child { float: left; }
 .footer h3 { color: #888; font-weight: 400; }
 .footer p { font-size: .833em; line-height: 1.4em; } /* 20px/28px */
-.footer a { color: #333; }
+.footer a { color: #555; }
 .footer a:hover { text-decoration: underline; }
 
 
