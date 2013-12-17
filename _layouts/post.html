@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<div class="featured">
+
+    <img src="{{ site.url }}/assets/img/{{ page.banner }}" width="910" height="390" alt="{{ page.title }}">
+
+</div>
+
+<article class="story wrap cf">
+
+    <h1>{{ page.title }}</h1>
+
+    <time>
+        {% assign d = page.date | date: "%-d"  %}
+        {{ page.date | date: "%A," }}
+        {% case d %}
+            {% when '1' or '21' or '31' %}{{ d }}st
+            {% when '2' or '22' %}{{ d }}nd
+            {% when '3' or '23' %}{{ d }}rd
+            {% else %}{{ d }}th
+        {% endcase %}
+        {{ page.date | date: "%B %Y" }}
+    </time>
+
+    {{ content }}
+
+</article>
+
+<section class="comments wrap cf">
+
+    <h2>Discussion</h2>
+
+    <div id="disqus_thread"></div>
+
+    <script type="text/javascript">
+        var disqus_shortname = 'kevinplattret';
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</section>

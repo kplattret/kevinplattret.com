@@ -1,0 +1,8 @@
+name: Kevin Plattret
+url: http://localhost:4000
+
+markdown: rdiscount
+pygments: true
+exclude: ['README.md']
+permalink: /:year/:month/:title/
+relative_permalinks: false
