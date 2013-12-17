@@ -10,7 +10,7 @@ in-nav: true
 
     <h1>About</h1>
 
-    <img src="{{ site.url }}/assets/img/about-kevin.jpg" width="390" height="390" alt="Kevin Plattret">
+    <img src="/assets/img/about-kevin.jpg" width="390" height="390" alt="Kevin Plattret">
 
     <p>My name is Kevin Plattret and I am a Web Developer. I also enjoy design and like to explore and learn new things.</p>
 
