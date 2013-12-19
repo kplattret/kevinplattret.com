@@ -6,6 +6,8 @@
 
     .inwrap { padding: 0 5.2rem; }
 
+    .content .featured code { font-size: 72px; line-height: normal; }
+
 }
 
 
@@ -24,6 +26,8 @@
     .header .main-navigation a:hover { color: #666; background: none; }
     .header .main-navigation a.active { color: #c33; background: none; }
 
+    .content .featured code { padding: 30px 0; font-size: 50px; line-height: normal; }
+
     .footer .grid .col { width: 100%; }
     .footer .grid .col:first-child { margin-bottom: 1.5rem; }
 
@@ -34,7 +38,9 @@
    Mobile Landscape to Tablet Portrait
    ========================================================================== */
 
-@media only screen and (min-width: 480px) and (max-width: 700px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    html { font-size: 55%; }
 
     .inwrap { padding: 0 4rem; }
 
@@ -47,7 +53,11 @@
 
 @media only screen and (max-width: 479px) {
 
+    html { font-size: 50%; }
+
     .inwrap { padding: 0 2.5rem; }
     .header .inwrap { padding: 0 .5rem; }
+
+     .content .featured code { padding: 20px 0; font-size: 34px; line-height: normal; }
 
 }
