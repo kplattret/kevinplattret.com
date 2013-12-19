@@ -9,7 +9,6 @@
     <title>{{ page.title }} - {{ site.name }}</title>
     <meta name="description" content="{{ page.description }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/assets/css/normalize.css">
     <link rel="stylesheet" href="/assets/css/main.css">
     <script src="/assets/js/vendor/modernizr-2.6.2.min.js"></script>
     <script src="//use.typekit.net/met3mkf.js"></script>
@@ -23,22 +22,26 @@
 
     <header class="header">
 
-        <div class="wrap cf">
+        <div class="wrap">
 
-            <h1 class="site-title"><a href="/">Kevin Plattret</a></h1>
+            <div class="inwrap clearfix">
 
-            <nav class="main-navigation cf">
+                <h1 class="site-title"><a href="/">Kevin Plattret</a></h1>
 
-                <ul>
-                    {% assign pages = site.pages | sort:"url" %}
-                    {% for p in pages order:ascending %}
-                        {% if p.in-nav == true %}
-                            <li><a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">{{ p.title }}</a></li>
-                        {% endif %}
-                    {% endfor %}
-                </ul>
+                <nav class="main-navigation">
 
-            </nav>
+                    <ul class="clearfix">
+                        {% assign pages = site.pages | sort:"url" %}
+                        {% for p in pages order:ascending %}
+                            {% if p.in-nav == true %}
+                                <li><a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">{{ p.title }}</a></li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+
+                </nav>
+
+            </div>
 
         </div>
 

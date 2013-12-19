@@ -6,7 +6,7 @@ permalink: /blog/
 in-nav: true
 ---
 
-<div class="wrap story cf">
+<div class="inwrap story clearfix">
 
     <h1>Blog</h1>
 

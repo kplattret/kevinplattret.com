@@ -6,11 +6,11 @@ permalink: /about/
 in-nav: true
 ---
 
-<div class="wrap story cf">
+<div class="inwrap story clearfix">
 
     <h1>About</h1>
 
-    <img src="/assets/img/about-kevin.jpg" width="390" height="390" alt="Kevin Plattret">
+    <img src="/assets/img/about-kevin.jpg" alt="{{ site.name }}">
 
     <p>My name is Kevin Plattret and I am a Web Developer. I also enjoy design and like to explore and learn new things.</p>
 

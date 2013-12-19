@@ -1,0 +1,53 @@
+/* ==========================================================================
+   Desktop to Tablet Landscape
+   ========================================================================== */
+
+@media only screen and (max-width: 909px) {
+
+    .inwrap { padding: 0 5.2rem; }
+
+}
+
+
+/* ==========================================================================
+   Any mobile device below 700px wide
+   ========================================================================== */
+
+@media only screen and (max-width: 700px) {
+
+    .header .site-title { margin: 3rem 0; width: 100%; text-align: center; }
+
+    .header .main-navigation { width: 100%; text-align: center; }
+    .header .main-navigation ul { margin: 0; }
+    .header .main-navigation li { margin: 0; width: 33.33%; }
+    .header .main-navigation a { padding: 12px 8px; }
+    .header .main-navigation a:hover { color: #666; background: none; }
+    .header .main-navigation a.active { color: #c33; background: none; }
+
+    .footer .grid .col { width: 100%; }
+    .footer .grid .col:first-child { margin-bottom: 1.5rem; }
+
+}
+
+
+/* ==========================================================================
+   Mobile Landscape to Tablet Portrait
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) and (max-width: 700px) {
+
+    .inwrap { padding: 0 4rem; }
+
+}
+
+
+/* ==========================================================================
+   Mobile Portrait to Mobile Landscape
+   ========================================================================== */
+
+@media only screen and (max-width: 479px) {
+
+    .inwrap { padding: 0 2.5rem; }
+    .header .inwrap { padding: 0 .5rem; }
+
+}
