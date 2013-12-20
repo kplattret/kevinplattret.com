@@ -30,11 +30,6 @@
 
     </footer>
 
-    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-    <script src="/assets/js/plugins.js"></script>
-    <script src="/assets/js/main.js"></script> -->
-
     <script>
         (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
         function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
@@ -49,7 +44,7 @@
             {%if page.disqus %}
                 var disqus_url = '{{ page.disqus }}';
             {%else %}
-                var disqus_url = 'http://kevinplattret.me{{ page.url }}';
+                var disqus_url = '//kevinplattret.me{{ page.url }}';
             {% endif %}
             var disqus_shortname = 'kevinplattret';
             (function() {
