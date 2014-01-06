@@ -14,7 +14,7 @@ I promised myself to write fairly regularly on this blog, and this specific topi
 
 What a difficult thing to define and measure, happiness. How does it really happen? Can I control it? Why does it come and go? My perception or definition of happiness will probably be different to yours, and yours will be different to someone else's. Although it's not something easy to identify, happiness is one of the things that drive us in life. It is what we all aim for. It is the reason behind many of the things we put effort into. Still, everyone will experience it and express it in their own way.
 
-I feel happy when I see people I love, when I hear from them or think about them. I feel happy when I dance, when I run, when I eat something I like or do something cool. I'm always up to for discovering new places, learning something new, meeting new people, because these things make me happy. The list goes on.
+I feel happy when I see people I love, when I hear from them or think about them. I feel happy when I dance, when I run, when I eat something I like or do something cool. I'm always up for discovering new places, learning something new, meeting new people, because these things make me happy. The list goes on.
 
 Some people think that money and possessions can make them happy. There can be something very exciting in the wait and acquisition of something we fancy, but that's merely down to desire, which brings more satisfaction than happiness. Or if it contributes to making you happy, it doesn't last very long in time. I am a big believer in people and what they can achieve together, therefore I see happiness as directly linked to the way we relate to each other as humans.
 
