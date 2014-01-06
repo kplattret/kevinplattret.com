@@ -1,2 +1,10 @@
+# Exclude these files from the git repo
+
 _site
-.DS_Store
+sitemap.*
+
+*.sublime-project
+*.sublime-workspace
+
+*.DS_Store
+*Thumbs.DB
