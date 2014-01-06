@@ -1,4 +1,4 @@
-# Exclude these files from the git repo
+# Exclude the files below from the git repo
 
 _site
 sitemap.*
