@@ -3,6 +3,6 @@ url: http://kevinplattret.me
 
 markdown: rdiscount
 pygments: true
-exclude: ['README.md', 'LICENCE.md', 'CNAME', 'sass', '*.sublime-project', '*.sublime-workspace']
+exclude: ['README.md', 'LICENCE.md', 'CNAME', 'sass', '*.sublime-*']
 permalink: /:year/:month/:title/
 relative_permalinks: false

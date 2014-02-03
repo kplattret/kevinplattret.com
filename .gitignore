@@ -1,10 +1,42 @@
-# Exclude the files below from the git repo
-
+# Defaults #
+############
+!.gitignore
 _site
+*.sublime-*
 sitemap.*
 
-*.sublime-project
-*.sublime-workspace
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
 
-*.DS_Store
-*Thumbs.DB
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
