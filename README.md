@@ -5,3 +5,7 @@ The source code for [kevinplattret.me](http://kevinplattret.me), powered by [Jek
 This website is distributed under the [MIT licence](/LICENCE.md).
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/kplattret/kplattret.github.io/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/kplattret/kplattret.github.io/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
