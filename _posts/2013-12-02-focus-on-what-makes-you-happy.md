@@ -3,7 +3,6 @@ layout: post
 title: Focus on what makes you happy
 description: The other day as I was on a walk I found myself wondering if I was happy with my life. The ultimate answer is yes, and people who know me know I am happy, but I wanted to dig deeper because I think it's worth taking some time to think about it. Happiness is something that is not easy to define or even understand, and I feel like people often forget what it means.
 banner: blog-autumn-leaves.jpg
-comments: true
 ---
 
 The other day as I was on a walk I found myself wondering if I was happy with my life. The ultimate answer is yes, and people who know me know I am happy, but I wanted to dig deeper because I think it's worth taking some time to think about it. Happiness is something that is not easy to define or even understand, and I feel like people often forget what it means.
