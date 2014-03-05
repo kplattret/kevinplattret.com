@@ -115,6 +115,8 @@ h3 { @include font-size(2.6); }
         h1 + time { margin: -3rem 0 3rem; @include font-size(2); text-align: center; }
         img + h2 { margin-top: 6.1rem; }
 
+        ul { padding-left: 40px; }
+
     }
 
     .comments > h2 { margin: 2.7rem auto 4rem; padding-top: 4rem; border-top: 2px solid #ccc; text-align: center; }
