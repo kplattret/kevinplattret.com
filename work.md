@@ -3,7 +3,7 @@ layout: default
 title: Work
 description: This is a selection of my work. I will not list all the projects I have done or contributed to here, instead I decided to show you examples which I think reflect my work the most.
 in_nav: true
-redirect_from: /portfolio
+redirect_from: /portfolio/
 ---
 
 <div class="featured">
