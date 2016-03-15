@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ page.title }} - {{ site.name }}</title>
+    <title>{{ page.title }}&thinsp;–&thinsp;{{ site.name }}</title>
     <meta name="description" content="{{ page.description }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/assets/css/main.min.css">
@@ -34,7 +34,7 @@
                         {% assign pages = site.pages | sort:"url" %}
                         {% for p in pages order:ascending %}
                             {% if p.in_nav == true %}
-                                <li><a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">{{ p.title }}</a></li>
+                                <li><a {% if p.url == page.url or p.title == "Notes" and page.layout == "post" %}class="active"{% endif %} href="{{ p.url }}">{{ p.title }}</a></li>
                             {% endif %}
                         {% endfor %}
                     </ul>
