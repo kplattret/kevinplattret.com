@@ -2,8 +2,8 @@
 ############
 !.gitignore
 _site
-*.sublime-*
 sitemap.*
+.sass-cache
 
 # Compiled source #
 ###################

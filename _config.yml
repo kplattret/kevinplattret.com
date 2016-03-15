@@ -1,8 +1,12 @@
+# Site settings
 name: Kevin Plattret
-url: http://kevinplattret.me
+email: kevin@plattret.me
+url: "http://kevinplattret.me"
+twitter_username: kplattret
+github_username:  kplattret
 
-markdown: rdiscount
-pygments: true
-exclude: ['README.md', 'LICENCE.md', 'CNAME', 'sass', '*.sublime-*']
+# Build settings
+markdown: kramdown
+exclude: ['README.md', 'LICENCE.md', 'CNAME', 'sass']
 permalink: /:year/:month/:title/
 relative_permalinks: false
