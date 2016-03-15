@@ -2,13 +2,12 @@
 layout: default
 title: About
 description: My name is Kevin Plattret and I am a Web Developer. I also enjoy design and like to explore and learn new things.
-slug: /about
-in-nav: true
+in_nav: true
 ---
 
 <div class="inwrap story clearfix">
 
-    <h1>About</h1>
+    <h1>{{ page.title }}</h1>
 
     <img src="/assets/img/about-kevin.jpg" alt="{{ site.name }}">
 

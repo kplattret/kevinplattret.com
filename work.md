@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Portfolio
+title: Work
 description: This is a selection of my work. I will not list all the projects I have done or contributed to here, instead I decided to show you examples which I think reflect my work the most.
-slug: /portfolio
-in-nav: true
+in_nav: true
+redirect_from: /portfolio
 ---
 
 <div class="featured">
@@ -14,7 +14,7 @@ in-nav: true
 
 <div class="inwrap story clearfix">
 
-    <h1>Portfolio</h1>
+    <h1>{{ page.title }}</h1>
 
     <p>This is a selection of my work. I will not list all the projects I have done or contributed to here, instead I decided to show you examples which I think reflect my work the most. I hope to grow this list soon!</p>
 

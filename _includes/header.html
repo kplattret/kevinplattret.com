@@ -33,8 +33,8 @@
                     <ul class="clearfix">
                         {% assign pages = site.pages | sort:"url" %}
                         {% for p in pages order:ascending %}
-                            {% if p.in-nav == true %}
-                                <li><a {% if p.url == page.url %}class="active"{% endif %} {% if site.env == "dev" %}href="{{ p.url }}"{% else %}href="{{ p.slug }}"{% endif %}>{{ p.title }}</a></li>
+                            {% if p.in_nav == true %}
+                                <li><a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">{{ p.title }}</a></li>
                             {% endif %}
                         {% endfor %}
                     </ul>

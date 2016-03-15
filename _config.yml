@@ -11,3 +11,7 @@ markdown: kramdown
 exclude: ['README.md', 'LICENCE.md', 'CNAME', 'sass']
 permalink: /:year/:month/:title
 relative_permalinks: false
+
+# Plugin settings
+gems:
+  - jekyll-redirect-from

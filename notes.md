@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Blog
+title: Notes
 description: These are thoughts of mine. Ideas translated into words, to share with you the experiences I go through. It's all about the conversation.
-slug: /blog
-in-nav: true
+in_nav: true
+redirect_from: /blog
 ---
 
 <div class="inwrap story clearfix">
 
-    <h1>Blog</h1>
+    <h1>{{ page.title }}</h1>
 
     <p>These are thoughts of mine. Ideas translated into words, to share with you the experiences I go through. It's all about the conversation.</p>
 
