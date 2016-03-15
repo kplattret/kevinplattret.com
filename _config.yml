@@ -9,7 +9,7 @@ github_username:  kplattret
 # Build settings
 markdown: kramdown
 exclude: ['README.md', 'LICENCE.md', 'CNAME', 'sass']
-permalink: /:year/:month/:title
+permalink: /:title
 relative_permalinks: false
 
 # Plugin settings

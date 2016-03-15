@@ -3,6 +3,7 @@ layout: post
 title: 2014 in my running shoes
 description: I haven't always been a keen runner. Having asthma as a child I actually used to hate any sport that involved running. Over time, however, I've tried to work on this. I now find myself going for the occasional run - and, dare I say it, enjoying it! I've come a long way and to celebrate this I've decided to challenge myself.
 banner: blog-running-goal.jpg
+redirect_from: /2014/03/2014-in-my-running-shoes/
 ---
 
 I haven't always been a keen runner. Having asthma as a child I actually used to hate any sport that involved running. Over time, however, I've tried to work on this. I now find myself going for the occasional run - and, dare I say it, enjoying it! I've come a long way and to celebrate this I've decided to challenge myself.
