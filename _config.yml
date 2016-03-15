@@ -13,7 +13,7 @@ exclude:
   - LICENCE.md
   - CNAME
   - assets/css/main.scss
-permalink: /note/:title
+permalink: /post/:title
 relative_permalinks: false
 
 # Plugin settings

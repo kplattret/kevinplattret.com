@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Notes
+title: Blog
 description: These are thoughts of mine. Ideas translated into words, to share with you the experiences I go through. It's all about the conversation.
 in_nav: true
-redirect_from: /blog/
+redirect_from: /posts/
 ---
 
 <div class="inwrap story clearfix">
