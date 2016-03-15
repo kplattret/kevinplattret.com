@@ -2,11 +2,12 @@
 name: Kevin Plattret
 email: kevin@plattret.me
 url: "http://kevinplattret.me"
+baseurl: ""
 twitter_username: kplattret
 github_username:  kplattret
 
 # Build settings
 markdown: kramdown
 exclude: ['README.md', 'LICENCE.md', 'CNAME', 'sass']
-permalink: /:year/:month/:title/
+permalink: /:year/:month/:title
 relative_permalinks: false

@@ -2,7 +2,7 @@
 layout: default
 title: About
 description: My name is Kevin Plattret and I am a Web Developer. I also enjoy design and like to explore and learn new things.
-permalink: /about/
+slug: /about
 in-nav: true
 ---
 

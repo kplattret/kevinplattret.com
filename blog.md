@@ -2,7 +2,7 @@
 layout: default
 title: Blog
 description: These are thoughts of mine. Ideas translated into words, to share with you the experiences I go through. It's all about the conversation.
-permalink: /blog/
+slug: /blog
 in-nav: true
 ---
 

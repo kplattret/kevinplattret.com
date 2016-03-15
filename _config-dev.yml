@@ -1,0 +1,3 @@
+# Site settings
+env: dev
+url: "http://local.kevinplattret.me:4000"

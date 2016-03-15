@@ -2,7 +2,7 @@
 layout: default
 title: Portfolio
 description: This is a selection of my work. I will not list all the projects I have done or contributed to here, instead I decided to show you examples which I think reflect my work the most.
-permalink: /portfolio/
+slug: /portfolio
 in-nav: true
 ---
 
