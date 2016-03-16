@@ -17,6 +17,8 @@ exclude:
   - CNAME
   - assets/css/main.scss
 permalink: /post/:title
+sass:
+  style: compressed
 
 # Plugin settings
 gems:
