@@ -1,8 +1,8 @@
 # Site settings
 name: Kevin Plattret
 email: kevin@plattret.me
-url: "http://kevinplattret.me"
-baseurl: ""
+url: https://kevinplattret.me
+enforce_ssl: kevinplattret.me
 twitter_username: kplattret
 github_username:  kplattret
 
