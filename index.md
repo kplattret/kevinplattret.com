@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Web Developer
 excerpt: I believe in people. I love to share, to work with others, to help by creating content, tools and services. People are the reason behind most products, and without them my job would not be the same.
 ---
