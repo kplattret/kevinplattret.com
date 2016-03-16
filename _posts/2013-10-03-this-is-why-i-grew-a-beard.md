@@ -1,7 +1,6 @@
 ---
 layout: post
 title: This is why I grew a beard
-description: Last June I quit my role as a Web Developer and Project Manager in a web design agency, only to join the 3beards in their mission to grow the tech community. It has been an amazing journey so far and I feel like a changed man. I wanted to outline the reasons for this move and also what impact it has had on me.
 redirect_from: /2013/10/this-is-why-i-grew-a-beard/
 ---
 
