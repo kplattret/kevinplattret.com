@@ -1,42 +1,31 @@
-    <footer class="footer">
+<footer class="footer">
+  <div class="wrap">
+    <div class="inwrap">
+      <div class="grid clearfix">
 
-        <div class="wrap">
+        <div class="col">
+          <h3>Get in touch</h3>
 
-            <div class="inwrap">
-
-                <div class="grid clearfix">
-
-                    <div class="col">
-
-                        <h3>Get in touch</h3>
-
-                        <p>The quickest way to contact me is to send me a tweet on <a href="//twitter.com/kplattret" target="_blank">Twitter</a>. You can also email me on <a href="mailto:kevin@plattret.me">kevin@plattret.me</a>.</p>
-
-                    </div>
-
-                    <div class="col">
-
-                        <h3>Colophon</h3>
-
-                        <p>Designed, developed and maintained by <a href="/about">Kevin Plattret</a>. Powered by <a href="//jekyllrb.com" target="_blank">Jekyll</a> and <a href="//github.com/kplattret/kplattret.github.io" target="_blank">GitHub</a>. Fonts served by <a href="//typekit.com/fonts" target="_blank">Typekit</a>.</p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
+          <p>The quickest way to contact me is to send me a tweet on <a href="//twitter.com/{{ site.twitter_username }}" target="_blank">Twitter</a>. You can also email me on <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
         </div>
 
-    </footer>
+        <div class="col">
+          <h3>Colophon</h3>
 
-    <script>
-        var _gaq=[['_setAccount','UA-26055002-2'],['_setDomainName', 'kevinplattret.me'],['_trackPageview']];
-        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src='//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)})
-        (document,'script');
-    </script>
+          <p>Designed, developed and maintained by <a href="{{ site.baseurl }}">Kevin Plattret</a>. Powered by <a href="//jekyllrb.com" target="_blank">Jekyll</a> and <a href="//github.com/{{ site.github_username }}" target="_blank">GitHub</a>. Fonts served by <a href="//typekit.com/fonts" target="_blank">Typekit</a>.</p>
+        </div>
 
-</body>
-</html>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Google Analytics tracking code -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', '{{ site.ga_tracking_id }}', 'auto');
+  ga('send', 'pageview');
+</script>

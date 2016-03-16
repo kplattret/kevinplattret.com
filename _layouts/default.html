@@ -1,9 +1,18 @@
-{% include header.html %}
+<!DOCTYPE html>
+<html>
 
-<section class="content wrap">
+  {% include head.html %}
 
-    {{ content }}
+  <body>
 
-</section>
+    {% include header.html %}
 
-{% include footer.html %}
+    <section class="content wrap">
+      {{ content }}
+    </section>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

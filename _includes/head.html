@@ -1,0 +1,24 @@
+<head>
+  <!-- Enforce SSL for root domain -->
+  <script>
+    var host = "{{ site.root_domain }}";
+    if ((host == window.location.host) && (window.location.protocol != "https:")) window.location.protocol = "https";
+  </script>
+
+  <!-- Meta tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Page info -->
+  <title>{% if page.title %}{{ page.title }}&thinsp;–&thinsp;{% endif %}{{ site.title }}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <!-- External resources -->
+  <link rel="stylesheet" href="{{ "/assets/css/main.min.css" | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+  <!-- Load fonts from Typekit -->
+  <script src="//use.typekit.net/met3mkf.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+</head>

@@ -1,8 +1,11 @@
 # Site settings
-name: Kevin Plattret
+title: Kevin Plattret
 email: kevin@plattret.me
+description:
+baseurl:
 url: https://kevinplattret.me
-enforce_ssl: kevinplattret.me
+root_domain: kevinplattret.me
+ga_tracking_id: UA-26055002-2
 twitter_username: kplattret
 github_username:  kplattret
 
@@ -14,7 +17,6 @@ exclude:
   - CNAME
   - assets/css/main.scss
 permalink: /post/:title
-relative_permalinks: false
 
 # Plugin settings
 gems:

@@ -2,8 +2,9 @@
 ############
 !.gitignore
 _site
-sitemap.*
 .sass-cache
+.jekyll-metadata
+sitemap.*
 
 # Compiled source #
 ###################
