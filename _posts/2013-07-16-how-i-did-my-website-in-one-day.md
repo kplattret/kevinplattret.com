@@ -2,7 +2,6 @@
 layout: post
 title: How I did my website in one day
 description: One day. That's all it took me to put this website together. It's not a perfect piece of work, it certainly needs to be improved, but here we are. It happened, and today it's here for you to see. One day is a fair amount of time but the task can be tricky and take longer than we think in the first place. I'll try to explain here how I did this.
-banner: blog-execute.jpg
 redirect_from: /2013/07/how-i-did-my-website-in-one-day/
 ---
 
@@ -18,7 +17,7 @@ In other words, this site was meant to land on the web months ago, if not years.
 
 ## Focus, execute and ship
 
-A few months ago I bought a book that became one of the most inspiring I have ever read: <a href="//executebook.com" target="_blank">Execute</a>. The book was written by <a href="//twitter.com/drewwilson" target="_blank">Drew Wilson</a> and <a href="//twitter.com/joshlong" target="_blank">Josh Long</a> in only eight days. It questions the standards of our work practices - or shall we call it work philosophy - and explains how traditional processes and the corporate environment are, more often than not, counter-productive. I highly recommend this book to everyone.
+A few months ago I bought a book that became one of the most inspiring I have ever read: [Execute](http://executebook.com). The book was written by [Drew Wilson](https://twitter.com/drewwilson) and [Josh Long](https://twitter.com/joshlong) in only eight days. It questions the standards of our work practices - or shall we call it work philosophy - and explains how traditional processes and the corporate environment are, more often than not, counter-productive. I highly recommend this book to everyone.
 
 It doesn't matter if your website, your app or your product is not perfect and complete when you first launch it. What's important is to have something solid and out there to show. We're talking about Executing, Shipping, Results. Often, the best way to get there is to break down the whole project in to small realistic goals that make you more aware of your progress and encourage you to carry on.
 
