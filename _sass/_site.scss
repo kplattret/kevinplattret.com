@@ -157,28 +157,32 @@ h3 {
   .main-navigation {
     float: right;
 
-    li {
-      float: left;
-      margin-left: 1.5rem;
+    ul {
+      list-style: none;
 
-      &:first-child {
-        margin: 0;
-      }
-    }
+      li {
+        float: left;
+        margin-left: 1.5rem;
 
-    a {
-      display: block;
-      padding: 2rem 1.2rem .8rem;
-      color: $primary-color;
-      -webkit-font-smoothing: antialiased;
+        &:first-child {
+          margin: 0;
+        }
 
-      &:hover {
-        background: #e7e5e3;
-      }
+        a {
+          display: block;
+          padding: 2rem 1.2rem .8rem;
+          color: $primary-color;
+          -webkit-font-smoothing: antialiased;
 
-      &.active {
-        color: #fff;
-        background: $secondary-color;
+          &:hover {
+            background: #e7e5e3;
+          }
+
+          &.active {
+            color: #fff;
+            background: $secondary-color;
+          }
+        }
       }
     }
   }

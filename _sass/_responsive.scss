@@ -35,41 +35,42 @@
 
       ul {
         margin: 0;
-      }
 
-      li {
-        position: relative;
-        display: inline-block;
-        float: none;
-        margin: 0;
-        padding-left: 15px;
-
-        &:before {
-          content: "\2022";
-          position: absolute;
-          left: 0;
-        }
-
-        &:first-child {
-          padding: 0;
+        li {
+          position: relative;
+          display: inline-block;
+          float: none;
+          margin: 0;
+          padding-left: 15px;
 
           &:before {
-            display: none;
+            content: "\2022";
+            position: absolute;
+            left: 0;
+            color: #888;
           }
-        }
-      }
 
-      a {
-        padding: 0 3px;
+          &:first-child {
+            padding: 0;
 
-        &:hover {
-          color: #666;
-          background: none;
-        }
+            &:before {
+              display: none;
+            }
+          }
 
-        &.active {
-          color: $secondary-color;
-          background: none;
+          a {
+            padding: 0 3px;
+
+            &:hover {
+              color: #666;
+              background: none;
+            }
+
+            &.active {
+              color: $secondary-color;
+              background: none;
+            }
+          }
         }
       }
     }
