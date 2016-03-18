@@ -1,51 +1,42 @@
-/* ==========================================================================
-    Font sizes and line heights
-    ========================================================================== */
+// ==========================================================================
+//  Font sizes and line heights
+// ==========================================================================
 
 // @mixin font-size($size: 1, $line: $size * 1.5) {
-//    font-size:    ($size * 10) + px;
-//    line-height:  ($line * 10) + px;
-//    font-size:    $size + rem;
-//    line-height:  $line + rem;
+//   font-size:    ($size * 10) + px;
+//   line-height:  ($line * 10) + px;
+//   font-size:    $size + rem;
+//   line-height:  $line + rem;
 // }
 
 @mixin font-size($size: 1) {
-    font-size:      ($size * 10) + px;
-    font-size:      $size + rem;
+  font-size:  ($size * 10) + px;
+  font-size:  $size + rem;
 }
 
 @mixin line-height($height: 1) {
-    line-height:    ($height * 10) + px;
-    line-height:    $height + rem;
+  line-height:  ($height * 10) + px;
+  line-height:  $height + rem;
 }
 
-
-/* ==========================================================================
-    Animations and effects
-    ========================================================================== */
+// ==========================================================================
+//  Animations and effects
+// ==========================================================================
 
 // .box { @include border-radius(1rem); }
 @mixin border-radius($radius) {
-    -webkit-border-radius: $radius;
-       -moz-border-radius: $radius;
-        -ms-border-radius: $radius;
-         -o-border-radius: $radius;
-            border-radius: $radius;
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+       -o-border-radius: $radius;
+          border-radius: $radius;
 }
 
 // a { @include transition(all, .4s, ease); }
 @mixin transition($property: all, $duration: .2s, $timing: linear) {
-    -webkit-transition: $property $duration $timing;
-       -moz-transition: $property $duration $timing;
-        -ms-transition: $property $duration $timing;
-         -o-transition: $property $duration $timing;
-            transition: $property $duration $timing;
+  -webkit-transition: $property $duration $timing;
+     -moz-transition: $property $duration $timing;
+      -ms-transition: $property $duration $timing;
+       -o-transition: $property $duration $timing;
+          transition: $property $duration $timing;
 }
-
-
-/* ==========================================================================
-    Wrappers
-    ========================================================================== */
-
-
-
