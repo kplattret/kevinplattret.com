@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blog
-excerpt: These are thoughts of mine. Ideas translated into words, to share with you the experiences I go through. It's all about the conversation.
+excerpt: A collection of thoughts, ideas, experiences and observations, opinions sometimes, translated into words, mostly about my life and the things it's made of.
 in_nav: true
 redirect_from: /posts/
 ---
