@@ -5,7 +5,7 @@ excerpt: Hello, I'm Kevin Plattret, a Web Developer, startup enthusiast and acci
 redirect_from: /about/
 ---
 
-![{{ site.title }}](/img/page-about.jpg)
+![{{ site.title }}](/img/kevin-plattret.jpg)
 
 Hello, I'm Kevin Plattret, a Web Developer, startup enthusiast and accidental designer. I enjoy building products that make the internet a better place for everyone and learning new things as I go.
 
