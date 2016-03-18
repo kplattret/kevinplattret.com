@@ -1,15 +1,18 @@
 ---
-layout: default
+layout: page
 title: Web Developer
-excerpt: I believe in people. I love to share, to work with others, to help by creating content, tools and services. People are the reason behind most products, and without them my job would not be the same.
+excerpt: Hello, I'm Kevin Plattret, a Web Developer, startup enthusiast and accidental designer. I enjoy building products that make the internet a better place for everyone and learning new things as I go.
+redirect_from: /about/
 ---
 
-<div class="featured">
-  <code>&lt;h1&gt;People&lt;/h1&gt;</code>
-</div>
+![{{ site.title }}](/img/page-about.jpg)
 
-<div class="inwrap story clearfix">
-  <p>I believe in people. I love to share, to work with others, to help by creating content, tools and services. People are the reason behind most products, and without them my job would not be the same.</p>
+Hello, I'm Kevin Plattret, a Web Developer, startup enthusiast and accidental designer. I enjoy building products that make the internet a better place for everyone and learning new things as I go.
 
-  <p>As a web developer I do my best to use my knowledge and experience to improve things and make the internet a better place for everyone. One conversation at a time. One line of code at a time. One pixel at a time.</p>
-</div>
+I'm currently working at [3beards](http://3-beards.com) with a team of amazing people. We exist to create meaningful experiences and connections that enable the startup community to thrive. A bold mission, but we put a lot of heart into our work and the response has been tremendous so far.
+
+Before that, I worked at [Top Left Design](http://topleftdesign.com) for a couple of years after studying Digital Media at the University of Burgundy.
+
+I grew up near Chalon-sur-Saône, Burgundy, France, where I spent the first twenty two years of my life. In 2011 I moved to the beautiful city of London in the UK and have been living here since then.
+
+Feel free to get in touch, I'm [@kplattret](https://twitter.com/kplattret) on Twitter.

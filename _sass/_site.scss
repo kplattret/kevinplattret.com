@@ -82,7 +82,7 @@ a,
     [href^="mailto:"] {
         white-space: nowrap;
     }
-} 
+}
 
 h1,
 h2,
@@ -172,7 +172,7 @@ h3 {
                 margin: 0;
             }
         }
-        
+
         a {
             display: block;
             padding: 2rem 1.2rem .8rem;
@@ -238,7 +238,7 @@ h3 {
         }
 
         img {
-            margin: 3.6rem auto;
+            margin: 0 auto 3.6rem;
             -webkit-box-shadow: 0 0 1px 1px rgba(0,0,0,.1);
             box-shadow: 0 0 1px 1px rgba(0,0,0,.1);
 
