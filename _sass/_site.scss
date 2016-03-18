@@ -215,30 +215,48 @@ h3 {
 
     .story {
         h1 {
-            margin-bottom: 3.8rem;
             text-align: center;
-
-            & + time {
-                margin: -3rem 0 3rem;
-                @include font-size(2);
-                text-align: center;
-            }
         }
 
         h2 {
-            margin: 4.7rem 0 2.7rem;
+            margin: 4.7rem 0 2.3rem;
         }
 
         time {
             display: block;
-            margin: -2.7rem 0 .5rem;
+            @include font-size(2);
             font-style: italic;
             color: #888;
-            @include font-size(1.8);
+        }
+
+        .page-header {
+            h1 {
+                margin-bottom: 6.8rem;
+            }
+        }
+
+        .post-header {
+            h1 {
+                margin-bottom: 0;
+
+                & + time {
+                    margin: 0 0 3rem;
+                    text-align: center;
+                }
+            }
+
+            h2 {
+                margin-bottom: 0;
+
+                & + time {
+                    margin: 0 0 .5rem;
+                    @include font-size(1.8);
+                }
+            }
         }
 
         img {
-            margin: 0 auto 3.6rem;
+            margin: 0 auto 3.8rem;
             -webkit-box-shadow: 0 0 1px 1px rgba(0,0,0,.1);
             box-shadow: 0 0 1px 1px rgba(0,0,0,.1);
 
