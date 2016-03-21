@@ -1,17 +1,25 @@
 ---
 layout: page
 title: Work
-excerpt: This is a selection of my work. I will not list all the projects I have done or contributed to here, instead I decided to show you examples which I think reflect my work the most.
+excerpt: A selection of my work. The most recent projects I've contributed to and some older ones that I'm proud of.
 in_nav: true
 redirect_from: /portfolio/
 ---
 
-This is a selection of my work. I will not list all the projects I have done or contributed to here, instead I decided to show you examples which I think reflect my work the most. I hope to grow this list soon!
+## Unicorn Hunt
 
-## Focus PR
+A magical beast of a job board and 3beards' answer to the increasing need for talent in startups. [Unicorn Hunt](https://unicornhunt.io) was built within a few months by the talented [Stef Lewandowski](https://twitter.com/stef) and launched in January 2015. Since then I've been in charge of maintaining it and building further functionality.
 
-The lastest website I built was for [Focus PR](//focuspr.co.uk), a London based PR agency. That was my last project as part of the team at [Top Left Design](//topleftdesign.com), with [Aric Arthur](//aricarthur.co.uk) on the design. We took pride in working all the details and make this full CMS website an enjoyable user experience. The client was very happy with the result. So were we.
+## 3beards
 
-## Help Centre
+The [3beards website](http://3-beards.com) is a hub for the startup enthusiast and the startup curious. It gathers upcoming community events, stories and news, job ads and office space available for hire. It's also the first Ruby on Rails application I built from scratch, with [Michael Hobson](https://twitter.com/imhobson) on the design.
 
-I designed and built a system that helps web design companies to manage projects and clients. The Help Center was thought as a simple platform where a web design agency can share information with their clients and gather all the details about each project. It includes client manuals, project information such as history, documents, maintenance time tracking, and much more.
+## Hackathon Wiki
+
+At 3beards we used to organise hackathon events. I built this quick Ruby on Rails app that allowed us to communicate various information to the participants and let them submit and document their hacks in one place. A very simple tool functionality wise, with a minimalist design.
+
+## Other projects
+
+[Servieres Consulting](http://servieres-consulting.com) – a London based consultancy for the travel and tourism industry. Powered by WordPress, it's available in both English and French with a bespoke functionality. Design by [Aric Arthur](http://aricarthur.co.uk).
+
+[Mind Candy](http://mindcandy.com) – I was lucky enough to build the new corporate website of the entertainment company behind Moshi Monsters, World of Warriors and other famous brands. Design by [Michael Hobson](https://twitter.com/imhobson).
