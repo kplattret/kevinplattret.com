@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Work
-excerpt: A selection of my work. The most recent projects I've contributed to and some older ones that I'm proud of.
 in_nav: true
 redirect_from: /portfolio/
 ---

@@ -1,19 +1,17 @@
 <header class="header">
   <div class="wrap">
     <div class="inwrap clearfix">
-
-      <h1 class="site-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+      <h1 class="site-title"><a href="/">{{ site.title }}</a></h1>
 
       <nav class="main-navigation">
         <ul class="clearfix">
           {% for p in site.pages %}
             {% if p.in_nav %}
-              <li><a {% if page.url == p.url or p.title == "Blog" and page.layout == "post" %}class="active"{% endif %} href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a></li>
+              <li><a {% if page.url == p.url or p.title == "Blog" and page.layout == "post" %}class="active"{% endif %} href="{{ p.url }}">{{ p.title }}</a></li>
             {% endif %}
           {% endfor %}
         </ul>
       </nav>
-
     </div>
   </div>
 </header>

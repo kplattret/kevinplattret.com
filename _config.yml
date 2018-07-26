@@ -1,25 +1,16 @@
-# Site settings
 title: Kevin Plattret
 email: kevin@plattret.me
-description: Hello, I'm Kevin Plattret, a Web Developer, startup enthusiast and accidental designer. I enjoy building products that make the internet a better place for everyone and learning new things as I go.
-baseurl:
+description: Software Engineer
 url: https://kevinplattret.me
-root_domain: kevinplattret.me
-ga_tracking_id: UA-26055002-2
-twitter_username: kplattret
-github_username:  kplattret
-
-# Build settings
-markdown: kramdown
-exclude:
-  - README.md
-  - LICENCE.md
-  - CNAME
-  - assets/css/main.scss
 permalink: /post/:title
+exclude:
+  - CNAME
+  - Gemfile*
+  - LICENCE.md
+  - README.md
+  - assets/css/main.scss
 sass:
   style: compressed
-
-# Plugin settings
-gems:
+github: [metadata]
+plugins:
   - jekyll-redirect-from

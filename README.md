@@ -1,3 +1,3 @@
 # Kevin Plattret
 
-The source code for [kevinplattret.me](http://kevinplattret.me), powered by [Jekyll](http://jekyllrb.com) and hosted with [GitHub](http://github.com/kplattret/kplattret.github.io).
+The source code for [kevinplattret.me](https://kevinplattret.me), powered by [Jekyll](https://jekyllrb.com) and [GitHub Pages](https://pages.github.com).
