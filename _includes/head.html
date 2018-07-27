@@ -2,7 +2,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }}</title>
+  {% if page.url == "/" %}
+    <title>{{ site.title }}, {{ page.title }}</title>
+  {% else %}
+    <title>{{ page.title }} – {{ site.title }}</title>
+  {% endif %}
 
   <link rel="stylesheet" href="{{ "/css/main.css" }}">
   <link rel="canonical" href="{{ page.url | replace: 'index.html','' | prepend: site.url }}">
