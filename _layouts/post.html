@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% if page.no_banner %}
+{% if page.no_banner == null %}
   <div class="featured">
     <img src="{{ page.slug | prepend: "/img/post-" | append: ".jpg" }}" alt="{{ page.title }}">
   </div>

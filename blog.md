@@ -2,7 +2,8 @@
 layout: page
 title: Blog
 in_nav: true
-redirect_from: /posts/
+redirect_from:
+  - /posts
 ---
 
 {% for post in site.posts %}
@@ -21,8 +22,6 @@ redirect_from: /posts/
         {% endcase %}
         {{ post.date | date: "%B %Y" }}
       </time>
-
-      {{ post.excerpt }}
     </header>
   </article>
 {% endfor %}
