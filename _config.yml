@@ -1,7 +1,7 @@
 title: Kevin Plattret
 email: kevin@plattret.me
 description: Software Engineer
-url: https://kevinplattret.me
+url: https://kevinplattret.com
 permalink: /post/:title
 exclude:
   - CNAME
