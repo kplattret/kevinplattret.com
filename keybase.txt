@@ -4,73 +4,49 @@ https://keybase.io/kplattret
 
 I hereby claim:
 
-  * I am an admin of https://kevinplattret.me
+  * I am an admin of https://kevinplattret.com
   * I am kplattret (https://keybase.io/kplattret) on keybase.
-  * I have a public key with fingerprint 775F 6FC7 217A 789B 96C8  0FB5 EC87 7DBD B503 D86A
+  * I have a public key ASCoqA_4FO8kFrNeunfOH4_JGEfJyi4tMVRrIcEsKi6JSgo
 
 To do so, I am signing this object:
 
 {
-    "body": {
-        "key": {
-            "eldest_kid": "01016288c4e731b4448b33977bce6c77e3da0779bdb17e984f16707ab698153c5b5d0a",
-            "fingerprint": "775f6fc7217a789b96c80fb5ec877dbdb503d86a",
-            "host": "keybase.io",
-            "key_id": "ec877dbdb503d86a",
-            "kid": "01016288c4e731b4448b33977bce6c77e3da0779bdb17e984f16707ab698153c5b5d0a",
-            "uid": "7e17fc6b2ea4936455b83cdb8be1e319",
-            "username": "kplattret"
-        },
-        "revoke": {
-            "sig_ids": [
-                "838532dd8065d2c277c5be6ececdf8c0aa4a25cdf08fc77c079a936b653182410f"
-            ]
-        },
-        "service": {
-            "hostname": "kevinplattret.me",
-            "protocol": "https:"
-        },
-        "type": "web_service_binding",
-        "version": 1
+  "body": {
+    "key": {
+      "eldest_kid": "01016288c4e731b4448b33977bce6c77e3da0779bdb17e984f16707ab698153c5b5d0a",
+      "host": "keybase.io",
+      "kid": "0120a8a80ff814ef2416b35eba77ce1f8fc91847c9ca2e2d31546b21c12c2a2e894a0a",
+      "uid": "7e17fc6b2ea4936455b83cdb8be1e319",
+      "username": "kplattret"
     },
-    "ctime": 1471687989,
-    "expire_in": 157680000,
-    "prev": "c1d8859228f5f9016e5cd72e72d48996a28084e9b29b50be294cf076a36f2937",
-    "seqno": 9,
-    "tag": "signature"
+    "merkle_root": {
+      "ctime": 1579174860,
+      "hash": "7d0300c2d623ef37635a706957e25d956f7f355a31e1fad452d5a64cd0ec1464d03113721efc1acd0e63536a7505d1d301dade153d595f98ac28a00ffd8893a7",
+      "hash_meta": "aaf48787af17c0c900f4cf8aad83e8a9ee47869e4fe692432c944be25c7460b8",
+      "seqno": 14249103
+    },
+    "service": {
+      "entropy": "tEHf5V/OqdnJRbZRm1xB56A8",
+      "hostname": "kevinplattret.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.1.1"
+  },
+  "ctime": 1579174890,
+  "expire_in": 504576000,
+  "prev": "a2b91d58b2cf8ef74d785253174ba2651734d7464465dad1f7e88da64cb22ddf",
+  "seqno": 87,
+  "tag": "signature"
 }
 
 which yields the signature:
 
------BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v2.0.56
-Comment: https://keybase.io/crypto
-
-yMOGAnicrZJtUBVVGMe5QFckSaGuxIs6LhoxIO37OXvhjrxohjakAQqh3vblLGzA
-vdd7lzeJgBIpiWqCRpR0xsJxTGZyGk1rxHiTRFKJqTREGJzAERW1KYSs6CwT3/rY
-ftk9Z//P7/8/z3O6Any8/E13aspbT/pcfc3U2z5V6LXl9CqujJCcSilhLSPy0OwL
-5SvIo9vzNIWwEiRFUjwNocwiwFASy7JQYhgBAElGvAwAYhSRBECQFIkCSICsSvGA
-BKLEC5DiGJmTOIUUiRhC1Rw5yO1yaw4dYwHgVF6VAU0BEUBBEngZkqrEIRkCoGAY
-RzIK5I3CXKfHqMDhJNGDYjUn3sML+2y8/9D/z7kLZ3EAUUCVeYlGIiswPMtxEmRk
-RYISohBDCYbQg9wOsQAZWV35oq67kU6UxxBuVOTMQ0ZjPVoOTu0hrNkEZCDH0IoC
-SZ5TaJkGADsiHslIVlQok6LIijSHv0mIuwRkEggi9pV4jqEgzVKkSmzDbGxZpMmz
-cKNNc/aoSHPMRYjFWzGEy+3UnbIzH//N1XWXx2ok00tdhrwYSfZ/QXZJcyh4ULii
-CLk9mtNBWCmslHXNIFMsoHgIBCjEEKjEpbmRXTMUHOAhiR/DBxVhpEwpEHICTUOV
-UwU8CYTPAmgEaIWFgsCLNCQhiwSJFvDkJEQLrKySgBcZXqUFBhDG0XY4nIQVO+li
-Dkbi5jlEvdCNiPKO9q2+XiZ/L/Nj3sYF9vKfv2juWq+rX/iH98crN9dVtQVf3nXC
-+cA37N4S58kXGja9G3pw7M2XsmbSteybZ7fM7LyxpzvjyZumLO8yH+vDKluJrW9q
-+7zchZS1J2rwVNuKlPRFvjtO1QatZgOS7521xO0bms5cWX+731Kyb+fxZUNfTn7v
-2VyQdv18Hzq5IM4xcOsEF5f88oc/+0XsP3hWjn7KnL/8wm44eqRndKR5r/nt8R9f
-134/11selN7qdzjUe3GTt+XoRZ+46Yh3eL95fyU0+UbotmVhK/qJyCdM6ye6bI+b
-hv680ho/um5aHUntvPhcw91j1uinBwZ9zKG94zPEokNM0oWoyvhfqvY+u7VrQcgH
-r3x+aLL+h+7OjIz3k9D+4eGEDSG0UtZdzb8X8Xcd13izpa+5eKKvwmSxxbfnPjqw
-1J1xuaLmm5afLo33XHrwKGH5J59ZDlQUB16zl60pdV1PPRgsfpfpu2Y9dfy+o3eJ
-Yrua+kxg4qvO5pzEVcdivtgU++JSIr1m+Lx9yvdcZWJ3WvBX1bK5aWBxAUr5Nnzq
-SFD2190da9dubEx7qxMkvbHR1Lsgcyjw8HhaeNvdyvsTkwmlt26Pq/4BqQeunXaM
-1GuJEeGRyfML8nebt6Gwe3vI7VEt5Yf6Sxo3xI//qjcEjN2vK6yt7bBYvD7KSDmz
-60rDRHjsmM08/bD6jE/0b5Gflk3mZaXXhxyVI+5UDA6ufv7GPwZ908U=
-=Hltb
------END PGP MESSAGE-----
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgqKgP+BTvJBazXrp3zh+PyRhHycouLTFUayHBLCouiUoKp3BheWxvYWTESpcCV8QgorkdWLLPjvdNeFJTF0uiZRc010ZEZdrR9+iNpkyyLd/EIKIIJ7g3zEe1MzTmdfID4t6C374eJgJsIaw+hpI9uD03AgHCo3NpZ8RAl/po+s5wZ/dCBasmZ6gmXuhjHw2iOYn7+zlRlA4vyeuAMFZ74h8e6OnRa2O6EX6IW7nEI+BSHn5m8nHA1EF3B6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOgwQzc0JvPgvP2esSP6LbbUmC32ATPUOLEFrxg5//q2o3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
