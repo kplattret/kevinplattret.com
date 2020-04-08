@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Focus on what makes you happy
-redirect_from:
-  - /2013/12/focus-on-what-makes-you-happy
 ---
 
 The other day as I was on a walk I found myself wondering if I was happy with my life. The ultimate

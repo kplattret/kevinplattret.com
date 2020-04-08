@@ -2,7 +2,6 @@
 layout: page
 title: Work
 in_nav: true
-redirect_from: /portfolio
 ---
 
 ## Unicorn Hunt

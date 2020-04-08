@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Web Developer
-redirect_from: /about
 ---
 
 ![{{ site.title }}](/img/kevin-plattret.jpg)

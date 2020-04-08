@@ -1,9 +1,6 @@
 ---
 layout: post
 title: This is why I grew a beard
-redirect_from:
-  - /2013/10/this-is-why-i-grew-a-beard
-  - /2013/09/this-is-why-i-grew-a-beard
 ---
 
 Last June I quit my role as a Web Developer and Project Manager in a web design agency, only to join

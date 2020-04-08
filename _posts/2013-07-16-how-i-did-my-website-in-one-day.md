@@ -1,8 +1,6 @@
 ---
 layout: post
 title: How I did my website in one day
-redirect_from:
-  - /2013/07/how-i-did-my-website-in-one-day
 ---
 
 One day. That's all it took me to put this website together. It's not a perfect piece of work; it

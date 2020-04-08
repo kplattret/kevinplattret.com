@@ -12,5 +12,3 @@ exclude:
 sass:
   style: compressed
 github: [metadata]
-plugins:
-  - jekyll-redirect-from
