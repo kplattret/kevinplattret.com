@@ -1,6 +1,5 @@
 ---
-layout: page
-title: Web Developer
+layout: default
 ---
 
 ![{{ site.title }}](/img/kevin-plattret.jpg)

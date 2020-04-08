@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: default
 title: Work
-in_nav: true
 ---
 
 ## Unicorn Hunt
