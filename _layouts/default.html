@@ -1,14 +1,81 @@
 <!DOCTYPE html>
 <html>
-  {% include head.html %}
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% if page.url == "/" %}
+      <title>{{ site.title }}, {{ page.title }}</title>
+    {% else %}
+      <title>{{ page.title }} – {{ site.title }}</title>
+    {% endif %}
+
+    <link rel="stylesheet" href="{{ "/css/main.css" }}">
+    <link rel="canonical" href="{{ page.url | replace: 'index.html','' | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.url }}">
+  </head>
 
   <body>
-    {% include header.html %}
+    <header class="header">
+      <div class="wrap">
+        <div class="inwrap clearfix">
+          <h1 class="site-title"><a href="/">{{ site.title }}</a></h1>
+
+          <nav class="main-navigation">
+            <ul class="clearfix">
+              {% for p in site.pages %}
+                {% if p.in_nav %}
+                  {% if page.url == p.url or p.title == "Blog" and page.layout == "post" %}
+                    {% assign link_class = "active"  %}
+                  {% else %}
+                    {% assign link_class = "" %}
+                  {% endif %}
+
+                  <li><a class="{{ link_class }}" href="{{ p.url }}">{{ p.title }}</a></li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
 
     <section class="content wrap">
       {{ content }}
     </section>
 
-    {% include footer.html %}
+    <footer class="footer">
+      <div class="wrap">
+        <div class="inwrap">
+          <div class="grid clearfix">
+            <div class="col">
+              <h3>Get in touch</h3>
+
+              <p>
+                You can find me on
+                <a href="https://twitter.com/kplattret">Twitter</a>,
+                <a href="https://github.com/kplattret">GitHub</a> and
+                <a href="https://keybase.io/kplattret">Keybase</a>,
+                among others, or reach out by email on
+                <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
+              </p>
+            </div>
+
+            <div class="col">
+              <h3>Colophon</h3>
+
+              <p>
+                Crafted by <a href="/">Kevin Plattret</a>,
+                in London and other places. Powered by
+                <a href="https://jekyllrb.com">Jekyll</a> and
+                <a href="https://pages.github.com">GitHub Pages</a>.
+                Fonts served by
+                <a href="https://typekit.com">Typekit</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
