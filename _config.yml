@@ -1,5 +1,5 @@
 title: Kevin Plattret
-email: kevin@plattret.me
+email: kevin@plattret.com
 description: Software Engineer
 url: https://kevinplattret.com
 permalink: /post/:title
@@ -12,3 +12,4 @@ exclude:
 sass:
   style: compressed
 github: [metadata]
+source_url: https://github.com/kplattret/kevinplattret.com

@@ -1,3 +1,9 @@
+$color-primary: #ccc;
+$color-secondary: #555;
+$color-secondary-alt: #888;
+$color-link: #237b49;
+$color-link-alt: #50bb7e;
+
 html {
   font-size: 10px;
   line-height: 1.4;
@@ -8,7 +14,7 @@ body {
   margin: 6rem auto 10rem;
   font-size: 1.8rem;
   font-family: Courier, monospace;
-  color: #ddd;
+  color: $color-primary;
 }
 
 * {
@@ -20,18 +26,18 @@ body {
 a,
 a:focus,
 a:visited {
-  color: #237b49;
+  color: $color-link;
 }
 
 a.alt {
   font-weight: bold;
-  color: #ddd;
+  color: $color-primary;
   text-decoration: none;
 }
 
 a:hover,
 a.alt:hover {
-  color: #50bb7e;
+  color: $color-link-alt;
 }
 
 h1 {
@@ -74,6 +80,28 @@ h3 {
           margin: 0;
         }
       }
+    }
+  }
+}
+
+.footer {
+  margin-top: 7rem;
+  font-size: 1.55rem;
+  line-height: 1.2;
+  font-weight: bold;
+  color: $color-secondary;
+  letter-spacing: -.02rem;
+
+  & > p {
+    padding-top: 1rem;
+    border-top: 2px solid $color-secondary;
+  }
+
+  a {
+    color: $color-secondary;
+
+    &:hover {
+      color: $color-secondary-alt;
     }
   }
 }
