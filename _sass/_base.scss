@@ -1,0 +1,48 @@
+html {
+  font-size: 10px;
+  line-height: 1.4;
+  background: #111;
+}
+
+body {
+  margin: 6rem auto 10rem;
+  font-size: 1.8rem;
+  font-family: Courier, monospace;
+  color: #ddd;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a,
+a:focus,
+a:visited {
+  color: #237b49;
+}
+
+a:hover {
+  color: #50bb7e;
+}
+
+h1 {
+  font-size: 3.8rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+.header,
+.content,
+.footer {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 2.4rem;
+}
