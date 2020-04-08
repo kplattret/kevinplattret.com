@@ -3,15 +3,12 @@ layout: default
 title: Blog
 ---
 
-{% for post in site.posts %}
-  <article>
-    <header class="post-header">
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}" class="alt">{{ post.title }}</a>
 
-      <time>
-        {{ post.date | date: "%A, " }}
-        {{ post.date | date_to_long_string: "ordinal"}}
-      </time>
-    </header>
-  </article>
-{% endfor %}
+      <time>{{ post.date | date: "%A" }}, {{ post.date | date_to_long_string: "ordinal"}}</time>
+    </li>
+  {% endfor %}
+</ul>

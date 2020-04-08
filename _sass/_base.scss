@@ -23,6 +23,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+p {
+  margin: 2.2rem 0;
+}
+
+img {
+  max-width: 100%;
+}
+
 a,
 a:focus,
 a:visited {
@@ -50,6 +58,22 @@ h2 {
 
 h3 {
   font-size: 2.4rem;
+}
+
+time {
+  display: block;
+  font-style: italic;
+  color: $color-secondary-alt;
+}
+
+hr {
+  display: block;
+  width: 30%;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid $color-secondary;
+  margin: 3rem auto;
+  padding: 0;
 }
 
 .header,
@@ -80,6 +104,31 @@ h3 {
           margin: 0;
         }
       }
+    }
+  }
+}
+
+.content {
+  .post-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      margin-top: 2.2rem;
+    }
+
+    a {
+      display: block;
+      font-size: 2.4rem;
+    }
+  }
+
+  .post-title {
+    margin-bottom: 0;
+
+    & + time {
+      margin-bottom: 4rem;
     }
   }
 }

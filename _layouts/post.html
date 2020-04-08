@@ -2,23 +2,18 @@
 layout: default
 ---
 
-{% if page.no_banner == null %}
-  <div class="featured">
-    <img src="{{ page.slug | prepend: "/img/post-" | append: ".jpg" }}" alt="{{ page.title }}">
-  </div>
-{% endif %}
+<img src="{{ page.slug | prepend: "/img/post-" | append: ".jpg" }}" alt="{{ page.title }}">
 
-<article class="inwrap story clearfix" itemscope itemtype="http://schema.org/BlogPosting">
-  <header class="post-header">
+<article itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
 
     <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-      {{ page.date | date: "%A, " }}
-      {{ page.date | date_to_long_string: "ordinal"}}
+      {{ page.date | date: "%A" }}, {{ page.date | date_to_long_string: "ordinal"}}
     </time>
   </header>
 
-  <div class="post-content" itemprop="articleBody">
+  <div itemprop="articleBody">
     {{ content }}
   </div>
 </article>
