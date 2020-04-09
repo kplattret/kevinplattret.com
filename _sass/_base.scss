@@ -1,7 +1,7 @@
 $color-primary: #ccc;
 $color-secondary: #555;
 $color-secondary-alt: #888;
-$color-link: #237b49;
+$color-link: #299b5a;
 $color-link-alt: #50bb7e;
 
 html {
@@ -21,6 +21,12 @@ body {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+::-moz-selection,
+::selection {
+  background: #333;
+  text-shadow: none;
 }
 
 p {
@@ -110,17 +116,18 @@ hr {
 
 .content {
   .post-list {
-    margin: 0;
+    margin: 5rem 0;
     padding: 0;
     list-style: none;
 
     li {
-      margin-top: 2.2rem;
+      margin-top: 2.5rem;
     }
 
     a {
       display: block;
       font-size: 2.4rem;
+      line-height: 1.2;
     }
   }
 
