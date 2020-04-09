@@ -2,21 +2,15 @@
 layout: default
 ---
 
-![{{ site.title }}](/img/kevin-plattret.jpg)
+<div class="highlight">
+  Hello! I'm Kevin, a software engineer who loves solving problems with code and building products
+  that make the Internet a better place for everyone. I'm always learning something new.
+</div>
 
-Hello, I'm Kevin Plattret, a web developer, startup enthusiast and accidental designer. I enjoy
-building products that make the internet a better place for everyone and learning new things as I
-go.
+Most recently, I worked across several teams at Deliveroo since 2016, focusing primarily on making
+the delivery network more resilient and helping riders get pay as quickly as possible. 
 
-I'm currently working at [3beards](http://3-beards.com) with a team of amazing people. We exist to
-create meaningful experiences and connections that enable the startup community to thrive. A bold
-mission, but we put a lot of heart into our work and the response has been tremendous so far.
-
-Before that, I worked at [Top Left Design](http://topleftdesign.com) for a couple of years after
-studying Digital Media at the University of Burgundy.
-
-I grew up near Chalon-sur-Saône in Burgundy, France, where I spent the first twenty two years of my
-life. In 2011 I moved to the beautiful city of London in the UK and have been living here since
-then.
-
-Feel free to get in touch, I'm [@kplattret](https://twitter.com/kplattret) on Twitter.
+When I'm not writing [code](https://github.com/kplattret), I have quite a few activities that fight
+for my attention. Among other things I enjoy reading books, exploring the outdoors on my bike or on
+foot, playing video-games, taking [pictures](https://instagram.com/kplattret), cooking and playing
+the violin.
