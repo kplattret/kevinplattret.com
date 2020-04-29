@@ -17,7 +17,7 @@ Later, I spent a couple of years focusing on making the delivery network more re
 I built a real-time monitoring system, which we designed to automatically detect anomalies across
 all live orders on the network. We then implemented a set of actions that would trigger whenever an
 issue occurred, to try and fix it, otherwise surfacing it up onto a dashboard for operation teams
-to investigate further. This system was later integrated with the internal customer service tools.
+to investigate further. This system was later integrated into the internal customer service tools.
 
 In my final year at the company, I joined the Rider Payments team where we implemented a feature to
 allow riders to get paid when they want and as quickly as possible. We also built the foundations
@@ -45,7 +45,7 @@ I spent [1000 days at 3beards](/my-1000-days-at-3beards) and they were all quite
 Every career starts somewhere and mine did at [Top Left Design](https://topleftdesign.com), a web
 design studio based in the heart of Soho in London, UK.
 
-As an intern first and then one of the very first in-house web developers, I worked alongside a
+As an intern first and then as one of the very first in-house web developers, I worked alongside a
 team of talented designers to create bespoke websites for a large variety of clients. 
 
 There I learned about the WordPress content management system in great depth, and how to translate a
