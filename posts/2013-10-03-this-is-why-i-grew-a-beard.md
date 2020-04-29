@@ -1,6 +1,6 @@
 ---
-layout: post
-title: This is why I grew a beard
+title: "This is why I grew a beard"
+date: "2013-10-03"
 ---
 
 Last June I quit my role as a Web Developer and Project Manager in a web design agency, only to join

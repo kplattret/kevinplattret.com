@@ -1,6 +1,6 @@
 ---
-layout: post
-title: 2014 in my running shoes
+title: "2014 in my running shoes"
+date: "2014-03-05"
 ---
 
 I haven't always been a keen runner. Having asthma as a child I actually used to hate any sport that

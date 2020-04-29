@@ -1,6 +1,6 @@
 ---
-layout: post
-title: How I did my website in one day
+title: "How I did my website in one day"
+date: "2013-07-16"
 ---
 
 One day. That's all it took me to put this website together. It's not a perfect piece of work; it

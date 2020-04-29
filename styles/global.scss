@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 $color-primary: #ccc;
 $color-secondary: #555;
 $color-secondary-alt: #888;
@@ -104,7 +106,7 @@ hr {
 
       li {
         display: inline-block;
-        margin-right: 1rem;
+        margin-right: 2.5rem;
 
         &:last-of-type {
           margin: 0;

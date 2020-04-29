@@ -1,6 +1,6 @@
 ---
-layout: post
-title: My 1000 days at 3beards
+title: "My 1000 days at 3beards"
+date: "2016-03-02"
 ---
 
 When I started to work at 3beards in June 2013 I knew very little about startups. Mike and Joe were

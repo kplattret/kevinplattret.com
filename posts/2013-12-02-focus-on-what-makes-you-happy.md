@@ -1,6 +1,6 @@
 ---
-layout: post
-title: Focus on what makes you happy
+title: "Focus on what makes you happy"
+date: "2013-12-02"
 ---
 
 The other day as I was on a walk I found myself wondering if I was happy with my life. The ultimate
