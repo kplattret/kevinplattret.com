@@ -1,4 +1,4 @@
 # Kevin Plattret
 
-The source code for [kevinplattret.com](https://kevinplattret.com), powered by
-[Jekyll](https://jekyllrb.com) and [GitHub Pages](https://pages.github.com).
+The source code of my personal website, available at [kevinplattret.com](https://kevinplattret.com).
+Built using [Jekyll](https://jekyllrb.com) and hosted on [Vercel](https://vercel.com).
