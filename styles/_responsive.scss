@@ -1,0 +1,28 @@
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 50%;
+  }
+
+  body {
+    margin: 4rem auto;
+  }
+
+  h1, h2, h3 {
+    line-height: 1.2;
+  }
+
+  .header {
+    margin-bottom: 5rem;
+  }
+
+  .content {
+    .highlight {
+      margin-top: 7rem;
+      font-size: 2.8rem;
+    }
+  }
+
+  .footer {
+    margin-top: 5rem;
+  }
+}

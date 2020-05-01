@@ -1,0 +1,78 @@
+html {
+  font-size: 62.5%; // equals to 10px
+  line-height: 1.4;
+  background: #111;
+}
+
+body {
+  margin: 6rem auto 10rem;
+  font-size: 1.8rem;
+  font-family: Courier, monospace;
+  color: $color-primary;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-moz-selection,
+::selection {
+  background: #333;
+  text-shadow: none;
+}
+
+p {
+  margin: 2.2rem 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a,
+a:focus,
+a:visited {
+  color: $color-link;
+}
+
+a.alt {
+  font-weight: bold;
+  color: $color-primary;
+  text-decoration: none;
+}
+
+a:hover,
+a.alt:hover {
+  color: $color-link-alt;
+}
+
+h1 {
+  font-size: 3.8rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+time {
+  display: block;
+  font-style: italic;
+  color: $color-secondary-alt;
+}
+
+hr {
+  display: block;
+  width: 30%;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid $color-secondary;
+  margin: 3rem auto;
+  padding: 0;
+}
+
