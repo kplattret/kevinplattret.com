@@ -28,7 +28,7 @@ export function getSortedPostsData() {
     return {
       id,
       slug,
-      ...matterResult.data
+      ...(matterResult.data as { title: string; date: string })
     }
   })
 
@@ -50,7 +50,7 @@ export function getAllPostIds() {
   })
 }
 
-export async function getPostData(slug) {
+export async function getPostData(slug: string) {
   // Get filename from slug
   const fileName = findFileName(postsDirectory, slug, 'md')
 
@@ -80,7 +80,7 @@ export async function getPostData(slug) {
     slug,
     bannerImage,
     contentHtml,
-    ...matterResult.data
+    ...(matterResult.data as { title: string; date: string })
   }
 }
 
