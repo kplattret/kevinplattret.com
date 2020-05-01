@@ -15,7 +15,8 @@ export default function Post({
 }) {
   return (
     <Layout title={postData.title}>
-      {postData.bannerImage && <img src={postData.bannerImage} alt={postData.title} />}
+      {postData.bannerImage &&
+        <img src={postData.bannerImage} className="banner-image" alt={postData.title} />}
 
       <article itemScope itemType="http://schema.org/BlogPosting">
         <header>

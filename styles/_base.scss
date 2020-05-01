@@ -28,6 +28,7 @@ p {
 }
 
 img {
+  display: block;
   max-width: 100%;
 }
 
@@ -68,11 +69,11 @@ time {
 
 hr {
   display: block;
-  width: 30%;
+  width: 33.33%;
   height: 1px;
   border: 0;
   border-top: 2px solid $color-secondary;
-  margin: 3rem auto;
+  margin: 4rem auto;
   padding: 0;
 }
 
