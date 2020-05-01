@@ -1,0 +1,52 @@
+@media only screen and (prefers-color-scheme: light) {
+  html {
+    background: $color-light-background;
+  }
+
+  body {
+    color: $color-light-primary;
+  }
+
+  ::-moz-selection,
+  ::selection {
+    background: $color-light-selection;
+  }
+
+  a.alt {
+    color: $color-light-primary;
+
+    &:hover {
+      color: $color-light-link;
+    }
+  }
+
+  time {
+    color: $color-light-secondary;
+  }
+
+  hr {
+    border-color: $color-light-secondary;
+  }
+
+  .content {
+    .highlight {
+      color: $color-light-highlight;
+    }
+  }
+
+  .footer {
+    color: $color-light-secondary;
+
+    & > p {
+      border-color: $color-light-secondary;
+    }
+
+    a {
+      color: $color-light-secondary;
+
+      &:hover {
+        color: $color-light-secondary-alt;
+      }
+    }
+  }
+}

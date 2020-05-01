@@ -1,11 +1,26 @@
 @charset "utf-8";
 
+// Dark theme (default)
 $color-primary: #ccc;
 $color-secondary: #555;
 $color-secondary-alt: #888;
+$color-background: #111;
+$color-selection: #333;
+$color-highlight: #eee;
 $color-link: #299b5a;
 $color-link-alt: #50bb7e;
+
+// Light theme
+$color-light-primary: #333;
+$color-light-secondary: #888;
+$color-light-secondary-alt: #aaa;
+$color-light-background: #eee;
+$color-light-selection: #ccc;
+$color-light-highlight: #111;
+$color-light-link: #299b5a;
+$color-light-link-alt: #50bb7e;
 
 @import "base";
 @import "sections";
 @import "responsive";
+@import "light";

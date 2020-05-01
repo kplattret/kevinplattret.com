@@ -1,7 +1,7 @@
 html {
   font-size: 62.5%; // equals to 10px
   line-height: 1.4;
-  background: #111;
+  background: $color-background;
 }
 
 body {
@@ -19,7 +19,7 @@ body {
 
 ::-moz-selection,
 ::selection {
-  background: #333;
+  background: $color-selection;
   text-shadow: none;
 }
 
