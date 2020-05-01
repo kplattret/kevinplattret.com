@@ -1,4 +1,17 @@
 {
   "cleanUrls": true,
+  "redirects": [
+    { "source": "/2013/07/how-i-did-my-website-in-one-day", "destination": "/posts/how-i-did-my-website-in-one-day" },
+    { "source": "/2013/09/this-is-why-i-grew-a-beard", "destination": "/posts/this-is-why-i-grew-a-beard" },
+    { "source": "/2013/10/this-is-why-i-grew-a-beard", "destination": "/posts/this-is-why-i-grew-a-beard" },
+    { "source": "/2013/12/focus-on-what-makes-you-happy", "destination": "/posts/focus-on-what-makes-you-happy" },
+    { "source": "/2014/03/2014-in-my-running-shoes", "destination": "/posts/2014-in-my-running-shoes" },
+    { "source": "/about", "destination": "/" },
+    { "source": "/blog/(.*)", "destination": "/posts/$1" },
+    { "source": "/portfolio", "destination": "/work" },
+    { "source": "/post", "destination": "/blog" },
+    { "source": "/post/(.*)", "destination": "/posts/$1" },
+    { "source": "/posts", "destination": "/blog" }
+  ],
   "trailingSlash": false
 }
