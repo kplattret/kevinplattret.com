@@ -8,6 +8,10 @@ export default function Layout({
   children: React.ReactNode
   title?: string
 }) {
+  const github = <a href="https://github.com/kplattret/kevinplattret.com">GitHub</a>
+  const email = <a href="mailto:kevin@plattret.com">email</a>
+  const pgpKey = <a href="https://keys.openpgp.org/search?q=kevin@plattret.com">PGP key</a>
+
   return (
     <>
       <Head>
@@ -31,10 +35,8 @@ export default function Layout({
       <main className="content">{children}</main>
 
       <footer className="footer">
-        <p>Written by Kevin Plattret in London and other places. Source code available
-          on <a href="https://github.com/kplattret/kevinplattret.com">GitHub</a>. Feel free to reach
-          out via <a href="mailto:kevin@plattret.com">email</a> (
-          <a href="https://keys.openpgp.org/search?q=kevin@plattret.com">PGP key</a>).</p>
+        <p>Written by Kevin Plattret in London and other places. Source code available on {github}.
+          Feel free to reach out via {email} ({pgpKey}).</p>
       </footer>
     </>
   )
