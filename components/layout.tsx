@@ -33,7 +33,8 @@ export default function Layout({
       <footer className="footer">
         <p>Written by Kevin Plattret in London and other places. Source code available
           on <a href="https://github.com/kplattret/kevinplattret.com">GitHub</a>. Feel free to reach
-          out via <a href="mailto:kevin@plattret.com">email</a>.</p>
+          out via <a href="mailto:kevin@plattret.com">email</a> (
+          <a href="https://keys.openpgp.org/search?q=kevin@plattret.com">PGP key</a>).</p>
       </footer>
     </>
   )
