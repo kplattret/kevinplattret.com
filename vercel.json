@@ -1,0 +1,34 @@
+{
+  "github": {
+    "silent": true
+  },
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/:year(\\d+)/:month(\\d+)/:title(.*)",
+      "destination": "/posts/:title",
+      "permanent": true
+    },
+    {
+      "source": "/about",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/(blog|post)/(.*)",
+      "destination": "/posts/$2",
+      "permanent": true
+    },
+    {
+      "source": "/portfolio",
+      "destination": "/work",
+      "permanent": true
+    },
+    {
+      "source": "/post(s?)",
+      "destination": "/blog",
+      "permanent": true
+    }
+  ],
+  "trailingSlash": false
+}

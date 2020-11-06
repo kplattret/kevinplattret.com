@@ -1,5 +1,6 @@
 import Date from '../../components/date'
 import Layout from '../../components/layout'
+import Image from 'next/image'
 import { GetStaticProps, GetStaticPaths } from 'next'
 import { getAllPostIds, getPostData } from '../../lib/posts'
 
@@ -16,7 +17,12 @@ export default function Post({
   return (
     <Layout title={postData.title}>
       {postData.bannerImage &&
-        <img src={postData.bannerImage} className="banner-image" alt={postData.title} />}
+        <Image
+          src={postData.bannerImage}
+          width="910"
+          height="390"
+          alt={postData.title}
+          className="banner-image" />}
 
       <article itemScope itemType="http://schema.org/BlogPosting">
         <header>
