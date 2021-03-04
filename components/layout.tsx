@@ -11,6 +11,7 @@ export default function Layout({
   const github = <a href="https://github.com/kplattret/kevinplattret.com">GitHub</a>
   const email = <a href="mailto:kevin@plattret.com">email</a>
   const pgpKey = <a href="https://keys.openpgp.org/search?q=kevin@plattret.com">PGP key</a>
+  const matrix = <a href="https://matrix.to/#/@kplattret:matrix.org">Matrix</a>
 
   return (
     <>
@@ -36,7 +37,7 @@ export default function Layout({
 
       <footer className="footer">
         <p>Written by Kevin Plattret in London and other places. Source code available on {github}.
-          Feel free to reach out via {email} ({pgpKey}).</p>
+          Feel free to reach out via {email} ({pgpKey}) or on {matrix}.</p>
       </footer>
     </>
   )
