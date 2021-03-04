@@ -23,7 +23,7 @@ export default function Blog({
       <ul className="post-list">
         {allPostsData.map(({ id, slug, title, date }) => (
           <li key={id}>
-            <Link href="/posts/[slug]" as={`/posts/${slug}`}>
+            <Link href={`/posts/${slug}`}>
               <a className="alt">{title}</a>
             </Link>
 
