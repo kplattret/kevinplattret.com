@@ -84,7 +84,11 @@ export async function getPostData(slug: string) {
   }
 }
 
-function findFileName(directory, slug, extension) {
+function findFileName(
+  directory: string,
+  slug: string,
+  extension: string
+) {
   const fileNames = fs.readdirSync(directory)
   const regex = RegExp(`\\d{4}-\\d{2}-\\d{2}-${slug}.${extension}`)
 
