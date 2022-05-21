@@ -34,8 +34,8 @@ export default function Work() {
       <h2>3beards</h2>
 
       <p>When I joined the <a href="https://3beards.github.io">3beards</a> in 2013, I knew I was in
-        for something different, but I certainly didn't expect the tremendous adventure it turned
-        out to be. One I could never forget in a lifetime.</p>
+        for something different, but I certainly didn&apos;t expect the tremendous adventure it
+        turned out to be. One I could never forget in a lifetime.</p>
 
       <p>3beards was many great things and one of them was our online platform, where the startup
         community could get updates on our various events, find office space or even hire talent.
