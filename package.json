@@ -17,7 +17,8 @@
     "react-dom": "^18.1.0",
     "remark": "^14.0.2",
     "remark-html": "^15.0.1",
-    "sass": "^1.52.1"
+    "sass": "^1.52.1",
+    "sharp": "^0.30.4"
   },
   "devDependencies": {
     "@types/node": "^17.0.35",
