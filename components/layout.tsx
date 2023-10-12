@@ -8,27 +8,27 @@ export default function Layout({
   children: React.ReactNode
   title?: string
 }) {
-  const github = <a href="https://github.com/kplattret/kevinplattret.com">GitHub</a>
-  const email = <a href="mailto:kevin@plattret.com">email</a>
-  const pgpKey = <a href="https://keys.openpgp.org/search?q=kevin@plattret.com">PGP key</a>
-  const matrix = <a href="https://matrix.to/#/@kplattret:matrix.org">Matrix</a>
+  const github = <Link href="https://github.com/kplattret/kevinplattret.com">GitHub</Link>
+  const email = <Link href="mailto:kevin@plattret.com">email</Link>
+  const pgpKey = <Link href="https://keys.openpgp.org/search?q=kevin@plattret.com">PGP key</Link>
+  const matrix = <Link href="https://matrix.to/#/@kplattret:matrix.org">Matrix</Link>
 
   return (
     <>
       <Head>
-        <title>{title && title + " | "}Kevin Plattret, Software Engineer</title>
+        <title>{`${title && title + " | "}Kevin Plattret, Software Engineer`}</title>
 
         <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
         <link rel="shortcut icon" href="/icons/favicon.png" />
       </Head>
 
       <header className="header">
-        <Link href="/"><a className="alt">Kevin Plattret</a></Link>
+        <Link href="/" className="alt">Kevin Plattret</Link>
 
         <nav className="navigation">
           <ul>
-            <li><Link href="/blog"><a className="alt">Blog</a></Link></li>
-            <li><Link href="/work"><a className="alt">Work</a></Link></li>
+            <li><Link href="/blog" className="alt">Blog</Link></li>
+            <li><Link href="/work" className="alt">Work</Link></li>
           </ul>
         </nav>
       </header>
