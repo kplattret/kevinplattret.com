@@ -19,10 +19,12 @@ export default function Post({
       {postData.bannerImage &&
         <Image
           src={postData.bannerImage}
-          width="910"
-          height="390"
+          width={910}
+          height={390}
           alt={postData.title}
-          className="banner-image" />}
+          className="banner-image"
+        />
+      }
 
       <article itemScope itemType="http://schema.org/BlogPosting">
         <header>

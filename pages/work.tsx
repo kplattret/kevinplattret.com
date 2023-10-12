@@ -47,8 +47,8 @@ export default function Work() {
         A job board for startups and our answer to the ever increasing need for talent. Unicorn Hunt
         was acquired by Tiny Capital in late 2017.</p>
 
-      <p>I spent <Link href="/posts/my-1000-days-at-3beards"><a>1000 days at 3beards</a></Link> and
-        they were all quite special.</p>
+      <p>I spent <Link href="/posts/my-1000-days-at-3beards">1000 days at 3beards</Link> and they
+        were all quite special.</p>
 
       <h2>Top Left Design</h2>
 
