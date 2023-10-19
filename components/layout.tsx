@@ -16,7 +16,7 @@ export default function Layout({
   return (
     <>
       <Head>
-        <title>{`${title && title + " | "}Kevin Plattret, Software Engineer`}</title>
+        <title>{`${title ? title + " | " : ""} Kevin Plattret, Software Engineer`}</title>
 
         <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
         <link rel="shortcut icon" href="/icons/favicon.png" />
