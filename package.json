@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "camelcase-keys": "^9.1.2",
     "date-fns": "^2.28.0",
     "gray-matter": "^4.0.3",
     "lodash": "^4.17.21",
