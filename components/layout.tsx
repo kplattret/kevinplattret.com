@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Menu from './Menu'
 
 export default function Layout({
   children,
@@ -24,17 +25,12 @@ export default function Layout({
 
       <header className="header">
         <Link href="/" className="alt">Kevin Plattret</Link>
-
-        <nav className="navigation">
-          <ul>
-            <li><Link href="/reads" className="alt">Reads</Link></li>
-            <li><Link href="/thoughts" className="alt">Thoughts</Link></li>
-            <li><Link href="/work" className="alt">Work</Link></li>
-          </ul>
-        </nav>
+        <Menu items={["reads", "thoughts", "work"]} />
       </header>
 
-      <main className="content">{children}</main>
+      <main className="content">
+        {children}
+      </main>
 
       <footer className="footer">
         <p>Written by Kevin Plattret in London and other places. Source code available on {github}.

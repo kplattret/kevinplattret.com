@@ -25,6 +25,13 @@
         &:last-of-type {
           margin: 0;
         }
+
+        a.active {
+          text-decoration: underline;
+          text-decoration-color: $color-link;
+          text-decoration-thickness: .3rem;
+          text-underline-offset: .7rem;
+        }
       }
     }
   }
