@@ -15,8 +15,8 @@
       "permanent": true
     },
     {
-      "source": "/(blog|post)/(.*)",
-      "destination": "/posts/$2",
+      "source": "/(blog|post|posts)/(.*)",
+      "destination": "/thoughts/$2",
       "permanent": true
     },
     {
@@ -26,7 +26,7 @@
     },
     {
       "source": "/post(s?)",
-      "destination": "/blog",
+      "destination": "/thoughts",
       "permanent": true
     }
   ],
