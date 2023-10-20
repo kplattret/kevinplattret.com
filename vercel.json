@@ -6,7 +6,7 @@
   "redirects": [
     {
       "source": "/:year(\\d+)/:month(\\d+)/:title(.*)",
-      "destination": "/posts/:title",
+      "destination": "/thoughts/:title",
       "permanent": true
     },
     {
@@ -25,7 +25,7 @@
       "permanent": true
     },
     {
-      "source": "/post(s?)",
+      "source": "/(blog|post|posts)",
       "destination": "/thoughts",
       "permanent": true
     }
