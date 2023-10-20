@@ -49,17 +49,35 @@
   }
 }
 
-@media only screen and (max-width: 400px) {
-  .book-list {
-    li {
-      width: 43% !important;
+@media only screen and (max-width: 480px) {
+  .header {
+    width: 100%;
+    text-align: center;
+
+    a {
+      display: inline-block;
     }
+
+    nav {
+      float: none !important;
+      margin-top: 2rem;
+      width: 100%;
+      text-align: center;
+
+      ul {
+        display: inline-block;
+      }
+    }
+  }
+
+  .book-list li,
+  article > .book-image {
+    width: 43% !important;
   }
 
   article > .book-image {
     display: block !important;
-    margin: 8rem auto 3.5rem !important;
-    width: 50% !important;
+    margin: 6rem auto 3.5rem !important;
 
     & + header {
       width: 100% !important;
