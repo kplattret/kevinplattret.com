@@ -2,10 +2,10 @@ import fs from 'fs'
 import html from 'remark-html'
 import matter from 'gray-matter'
 import path from 'path'
-import {remark} from 'remark'
+import { remark } from 'remark'
 
-const imagesDirectory = path.join(process.cwd(), 'public/images')
-const postsDirectory = path.join(process.cwd(), 'posts')
+const imagesDirectory = path.join(process.cwd(), 'public/images/posts')
+const postsDirectory = path.join(process.cwd(), 'data/posts')
 
 export function getSortedPostsData() {
   // Get file names under /posts
@@ -59,7 +59,7 @@ export async function getPostData(slug: string) {
 
   // Get banner image
   const imageFileName = findFileName(imagesDirectory, slug, '[jpg|png]')
-  const bannerImage = imageFileName ? (`/images/${imageFileName}`) : null
+  const bannerImage = imageFileName ? (`/images/posts/${imageFileName}`) : null
 
   // Get file content
   const fullPath = path.join(postsDirectory, fileName)

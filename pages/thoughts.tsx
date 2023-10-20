@@ -4,9 +4,9 @@ import Link from 'next/link'
 import { GetStaticProps } from 'next'
 import { getSortedPostsData } from '../lib/posts'
 
-const title = 'Blog'
+const title = 'Thoughts'
 
-export default function Blog({
+export default function Thoughts({
   allPostsData
 }: {
   allPostsData: {
@@ -23,7 +23,7 @@ export default function Blog({
       <ul className="post-list">
         {allPostsData.map(({ id, slug, title, date }) => (
           <li key={id}>
-            <Link href={`/posts/${slug}`} className="alt">{title}</Link>
+            <Link href={`/thoughts/${slug}`} className="alt">{title}</Link>
             <Date dateString={date} />
           </li>
         ))}

@@ -6,7 +6,7 @@
   "redirects": [
     {
       "source": "/:year(\\d+)/:month(\\d+)/:title(.*)",
-      "destination": "/posts/:title",
+      "destination": "/thoughts/:title",
       "permanent": true
     },
     {
@@ -15,8 +15,8 @@
       "permanent": true
     },
     {
-      "source": "/(blog|post)/(.*)",
-      "destination": "/posts/$2",
+      "source": "/(blog|post|posts)/(.*)",
+      "destination": "/thoughts/$2",
       "permanent": true
     },
     {
@@ -25,8 +25,8 @@
       "permanent": true
     },
     {
-      "source": "/post(s?)",
-      "destination": "/blog",
+      "source": "/(blog|post|posts)",
+      "destination": "/thoughts",
       "permanent": true
     }
   ],

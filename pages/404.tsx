@@ -11,8 +11,8 @@ export default function Custom404() {
       <p>This resource was moved or was never here in the first place. Unless you were looking for
         the 404 page of course.</p>
 
-      <p>You can always read some of the <Link href="/blog">stuff I&apos;ve written</Link>, and you
-        might find what you were looking for before landing here.</p>
+      <p>Maybe have a look at the things I <Link href="/thoughts">wrote</Link> about
+        or <Link href="/reads">read</Link> about, otherwise feel free to reach out.</p>
     </Layout>
   )
 }

@@ -27,8 +27,8 @@ export default function Layout({
 
         <nav className="navigation">
           <ul>
-            <li><Link href="/blog" className="alt">Blog</Link></li>
             <li><Link href="/reads" className="alt">Reads</Link></li>
+            <li><Link href="/thoughts" className="alt">Thoughts</Link></li>
             <li><Link href="/work" className="alt">Work</Link></li>
           </ul>
         </nav>
