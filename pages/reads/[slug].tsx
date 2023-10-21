@@ -16,7 +16,7 @@ export default function Book({
     startedOn: string
     finishedOn: string
     reviewUrl: string
-    shelves: [string]
+    bookshelves: [string]
     contentHtml: string
   }
 }) {
@@ -35,7 +35,7 @@ export default function Book({
           <h1 className="book-title" itemProp="name headline">{bookData.title}</h1>
           <h3 className="book-author">{bookData.author}</h3>
 
-          <Labels list={bookData.shelves} />
+          <Labels list={bookData.bookshelves} />
 
           <Link className="book-date" href={bookData.reviewUrl}>
             <DateRange

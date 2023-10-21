@@ -3,8 +3,8 @@ title: "Shades of Magic (series)"
 author: "V.E. Schwab"
 started_on: "2019-05-14"
 finished_on: "2019-08-02"
-review_url: "https://www.goodreads.com/review/show/2892071680"
-shelves:
+review_url: "https://goodreads.com/review/show/2892071680"
+bookshelves:
   - "fiction"
   - "fantasy"
   - "magic"

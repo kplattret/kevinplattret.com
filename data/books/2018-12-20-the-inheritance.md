@@ -4,7 +4,7 @@ author: "Matthew López"
 started_on: "2018-11-14"
 finished_on: "2018-12-20"
 review_url: "https://goodreads.com/review/show/2564288794"
-shelves:
+bookshelves:
   - "fiction"
   - "theatre"
   - "queer"
