@@ -92,8 +92,9 @@
       }
 
       .book-image {
-        margin: 0;
-        width: 100%;
+        display: block;
+        margin: 0 auto;
+        width: auto;
         max-height: 240px;
         opacity: .8;
         transition: all .02s ease-out;
