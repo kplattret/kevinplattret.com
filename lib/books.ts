@@ -97,7 +97,7 @@ export async function getBookData(slug: string) {
       startedOn: string,
       finishedOn: string,
       reviewUrl: string
-      shelves: [string]
+      bookshelves: [string]
     })
   }
 }

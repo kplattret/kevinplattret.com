@@ -4,7 +4,7 @@ author: "Caroline Criado Pérez"
 started_on: "2021-06-09"
 finished_on: "2021-12-12"
 review_url: "https://goodreads.com/review/show/3998844397"
-shelves:
+bookshelves:
   - "non-fiction"
   - "feminism"
   - "science"

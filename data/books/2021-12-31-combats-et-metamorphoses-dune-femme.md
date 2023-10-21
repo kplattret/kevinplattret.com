@@ -3,8 +3,8 @@ title: "Combats et métamorphoses d'une femme"
 author: "Édouard Louis"
 started_on: "2021-12-31"
 finished_on: "2021-12-31"
-review_url: "https://www.goodreads.com/review/show/4426973088"
-shelves:
+review_url: "https://goodreads.com/review/show/4426973088"
+bookshelves:
   - "french"
   - "non-fiction"
   - "biography"
