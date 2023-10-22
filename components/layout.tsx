@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Menu from './Menu'
+import { Analytics } from '@vercel/analytics/react'
 
 export default function Layout({
   children,
@@ -36,6 +37,8 @@ export default function Layout({
         <p>Written by Kevin Plattret in London and other places. Source code available on {github}.
           Feel free to reach out via {email} ({pgpKey}) or on {matrix}.</p>
       </footer>
+
+      <Analytics />
     </>
   )
 }
