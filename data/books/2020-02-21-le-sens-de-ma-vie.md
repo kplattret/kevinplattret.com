@@ -3,6 +3,7 @@ title: "Le sens de ma vie: Entretien"
 author: "Romain Gary"
 started_on: "2020-02-19"
 finished_on: "2020-02-21"
+book_url: "https://goodreads.com/book/show/29624891"
 review_url: "https://goodreads.com/review/show/3198106981"
 bookshelves:
   - "french"

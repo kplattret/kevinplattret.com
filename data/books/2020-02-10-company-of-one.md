@@ -3,6 +3,7 @@ title: "Company of One: Why Staying Small is the Next Big Thing for Business"
 author: "Paul Jarvis"
 started_on: "2020-01-22"
 finished_on: "2020-02-10"
+book_url: "https://goodreads.com/book/show/41144788"
 review_url: "https://goodreads.com/review/show/2687489525"
 bookshelves:
   - "non-fiction"

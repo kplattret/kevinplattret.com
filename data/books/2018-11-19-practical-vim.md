@@ -3,6 +3,7 @@ title: "Practical Vim: Edit Text at the Speed of Thought"
 author: "Drew Neil"
 started_on: "2018-10-22"
 finished_on: "2018-11-19"
+book_url: "https://goodreads.com/book/show/42854052"
 review_url: "https://goodreads.com/review/show/2182021695"
 bookshelves:
   - "non-fiction"

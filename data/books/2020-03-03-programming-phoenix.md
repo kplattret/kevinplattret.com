@@ -3,6 +3,7 @@ title: "Programming Phoenix ≥ 1.4: Productive |> Reliable |> Fast"
 author: "Chris McCord, Bruce Tate, José Valim"
 started_on: "2019-11-12"
 finished_on: "2020-03-03"
+book_url: "https://goodreads.com/book/show/32848382"
 review_url: "https://goodreads.com/review/show/3046053717"
 bookshelves:
   - "non-fiction"

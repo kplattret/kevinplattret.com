@@ -3,6 +3,7 @@ title: "The Pragmatic Programmer: From Journeyman to Master"
 author: "Andy Hunt, Dave Thomas"
 started_on: "2018-07-30"
 finished_on: "2018-10-20"
+book_url: "https://goodreads.com/book/show/4099"
 review_url: "https://goodreads.com/review/show/2073802433"
 bookshelves:
   - "non-fiction"
