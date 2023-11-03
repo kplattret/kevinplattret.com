@@ -1,4 +1,4 @@
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 import Link from 'next/link'
 
 const title = '404 Not Found'

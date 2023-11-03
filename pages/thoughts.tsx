@@ -1,5 +1,5 @@
-import Date from '../components/date'
-import Layout from '../components/layout'
+import Date from '../components/Date'
+import Layout from '../components/Layout'
 import Link from 'next/link'
 import { GetStaticProps } from 'next'
 import { getSortedPostsData } from '../lib/posts'

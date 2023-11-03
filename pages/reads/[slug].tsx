@@ -1,7 +1,7 @@
 import DateRange from '../../components/DateRange'
 import Image from 'next/image'
 import Labels from '../../components/Labels'
-import Layout from '../../components/layout'
+import Layout from '../../components/Layout'
 import Link from 'next/link'
 import { GetStaticProps, GetStaticPaths } from 'next'
 import { getAllBookIds, getBookData } from '../../lib/books'
