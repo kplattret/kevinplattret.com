@@ -3,6 +3,7 @@ title: "The Manager's Path: A Guide for Tech Leaders Navigating Growth"
 author: "Camille Fournier"
 started_on: "2022-01-02"
 finished_on: "2022-05-20"
+book_url: "https://goodreads.com/book/show/33369254"
 review_url: "https://goodreads.com/review/show/3988714322"
 bookshelves:
   - "non-fiction"

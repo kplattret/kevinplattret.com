@@ -3,6 +3,7 @@ title: "Black and British: A Forgotten History"
 author: "David Olusoga"
 started_on: "2021-04-19"
 finished_on: "2021-12-30"
+book_url: "https://goodreads.com/book/show/32863264"
 review_url: "https://goodreads.com/review/show/3879174980"
 bookshelves:
   - "non-fiction"

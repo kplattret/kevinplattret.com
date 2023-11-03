@@ -3,6 +3,7 @@ title: "Red, White & Royal Blue"
 author: "Casey McQuiston"
 started_on: "2020-01-22"
 finished_on: "2020-01-26"
+book_url: "https://goodreads.com/book/show/49233093"
 review_url: "https://goodreads.com/review/show/2859938181"
 bookshelves:
   - "fiction"

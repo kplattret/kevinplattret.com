@@ -3,6 +3,7 @@ title: "Invisible Women: Exposing Data Bias in a World Designed for Men"
 author: "Caroline Criado Pérez"
 started_on: "2021-06-09"
 finished_on: "2021-12-12"
+book_url: "https://goodreads.com/book/show/42948918"
 review_url: "https://goodreads.com/review/show/3998844397"
 bookshelves:
   - "non-fiction"

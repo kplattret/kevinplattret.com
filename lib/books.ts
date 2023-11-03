@@ -96,7 +96,8 @@ export async function getBookData(slug: string) {
       author: string,
       startedOn: string,
       finishedOn: string,
-      reviewUrl: string
+      bookUrl: string,
+      reviewUrl: string,
       bookshelves: [string]
     })
   }

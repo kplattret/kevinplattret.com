@@ -3,6 +3,7 @@ title: "It Doesn't Have to Be Crazy at Work"
 author: "Jason Fried, David Heinemeier Hansson"
 started_on: "2019-02-13"
 finished_on: "2019-02-24"
+book_url: "https://goodreads.com/book/show/41019110"
 review_url: "https://goodreads.com/review/show/2467397692"
 bookshelves:
   - "non-fiction"

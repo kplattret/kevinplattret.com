@@ -3,6 +3,7 @@ title: "The Inheritance"
 author: "Matthew López"
 started_on: "2018-11-14"
 finished_on: "2018-12-20"
+book_url: "https://goodreads.com/book/show/39711465"
 review_url: "https://goodreads.com/review/show/2564288794"
 bookshelves:
   - "fiction"

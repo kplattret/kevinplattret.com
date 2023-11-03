@@ -15,6 +15,7 @@ export default function Book({
     author: string
     startedOn: string
     finishedOn: string
+    bookUrl: string
     reviewUrl: string
     bookshelves: [string]
     contentHtml: string
@@ -23,13 +24,14 @@ export default function Book({
   return (
     <Layout title={bookData.title}>
       <article itemScope itemType="http://schema.org/BlogPosting">
-        <Image
-          src={bookData.image}
-          width={910}
-          height={390}
-          alt={bookData.title}
-          className="book-image"
-        />
+        <Link className="book-image" href={bookData.bookUrl}>
+          <Image
+            src={bookData.image}
+            width={910}
+            height={390}
+            alt={bookData.title}
+          />
+        </Link>
 
         <header>
           <h1 className="book-title" itemProp="name headline">{bookData.title}</h1>

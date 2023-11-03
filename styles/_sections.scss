@@ -95,6 +95,7 @@
         display: block;
         margin: 0 auto;
         width: auto;
+        height: auto;
         max-height: 240px;
         opacity: .8;
         transition: all .02s ease-out;
@@ -106,17 +107,15 @@
     }
   }
 
-  .book-image,
-  .banner-image {
-    margin-bottom: 4.5rem;
-    height: auto;
-  }
-
   .book-image {
     display: inline-block;
     margin: 1rem 4% 1.5rem 0;
     width: 22%;
     vertical-align: top;
+
+    img {
+      height: auto;
+    }
 
     & + header {
       display: inline-block;
@@ -163,6 +162,11 @@
     &:hover time {
       color: $color-link-alt;
     }
+  }
+
+  .banner-image {
+    margin-bottom: 4.5rem;
+    height: auto;
   }
 
   .post-title {

@@ -3,6 +3,7 @@ title: "Harry Potter and the Cursed Child"
 author: "J.K. Rowling, John Tiffany, Jack Thorne"
 started_on: "2018-11-04"
 finished_on: "2018-11-11"
+book_url: "https://goodreads.com/book/show/35624010"
 review_url: "https://goodreads.com/review/show/1715319802"
 bookshelves:
   - "fiction"

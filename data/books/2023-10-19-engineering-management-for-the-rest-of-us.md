@@ -3,6 +3,7 @@ title: "Engineering Management for the Rest of Us"
 author: "Sarah Drasner"
 started_on: "2023-01-18"
 finished_on: "2023-10-19"
+book_url: "https://goodreads.com/book/show/61069201"
 review_url: "https://goodreads.com/review/show/5081410766"
 bookshelves:
   - "non-fiction"
@@ -21,7 +22,7 @@ it is the nature of this type of role, to be tricky to learn from others, ahead 
 context, because it largely depends on the environment you work in and the team you work with, the
 mission you work on, your personality and many other things in between.
 
-Having said that, feeling well prepared and equipped te become a manager will go a long way, and
+Having said that, feeling well prepared and equipped to become a manager will go a long way, and
 Sarah Drasner proves to be an outstanding guide for this sinuous journey. In *Engineering Management
 for the Rest of Us*, she gives us a plethora of stories, through which she explores challenges and
 outlines processes that have worked time and again for her and her teams. She invites us to
