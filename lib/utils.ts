@@ -5,8 +5,8 @@ import matter from 'gray-matter'
 import path from 'path'
 import { remark } from 'remark'
 
-export function getAllFileNamesForResource(resourceName: string) {
-  return fs.readdirSync(path.join(process.cwd(), `data/${resourceName}`))
+export function getAllFileNamesForResource(resourceType: string) {
+  return fs.readdirSync(path.join(process.cwd(), `data/${resourceType}`))
 }
 
 export async function getSingleFileData(
@@ -17,7 +17,6 @@ export async function getSingleFileData(
   const contentDirectory = path.join(process.cwd(), `data/${resourceType}`)
   const fileName = resourceIdentifier.endsWith('.md') ?
     resourceIdentifier : getFileNameForResource(contentDirectory, resourceIdentifier, 'md')
-
   const id = fileName.replace(/\.md$/, '')
   const slug = id.substring(11)
 
@@ -29,7 +28,6 @@ export async function getSingleFileData(
   const fileContents = fs.readFileSync(fullPath, 'utf8')
   const matterResult = matter(fileContents)
   const metaData = camelcaseKeys(matterResult.data)
-
   const content = withContent ? await processContent(matterResult.content) : null
 
   return {
@@ -47,8 +45,8 @@ export function sortItemsInAscendingOrder(items: object[], key: string) {
   })
 }
 
-export function getAllSlugsForResource(resourceName: string) {
-  const fileNames = fs.readdirSync(path.join(process.cwd(), `data/${resourceName}`))
+export function getAllSlugsForResource(resourceType: string) {
+  const fileNames = fs.readdirSync(path.join(process.cwd(), `data/${resourceType}`))
 
   return fileNames.map(fileName => {
     return {
