@@ -1,8 +1,9 @@
+import Image from 'next/image'
+import { GetStaticPaths, GetStaticProps } from 'next'
+
 import Date from '../../components/Date'
 import Layout from '../../components/Layout'
-import Image from 'next/image'
-import { GetStaticProps, GetStaticPaths } from 'next'
-import { getAllPostIds, getPostData } from '../../lib/posts'
+import { getAllPostSlugs, getPostData } from '../../lib/posts'
 
 export default function Post({
   postData
@@ -10,15 +11,15 @@ export default function Post({
   postData: {
     title: string
     date: string
-    bannerImage: string
-    contentHtml: string
+    image: string
+    content: string
   }
 }) {
   return (
     <Layout title={postData.title}>
-      {postData.bannerImage &&
+      {postData.image &&
         <Image
-          src={postData.bannerImage}
+          src={postData.image}
           width={910}
           height={390}
           alt={postData.title}
@@ -33,7 +34,7 @@ export default function Post({
         </header>
 
         <div itemProp="articleBody">
-          <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+          <div dangerouslySetInnerHTML={{ __html: postData.content }} />
         </div>
       </article>
     </Layout>
@@ -41,7 +42,7 @@ export default function Post({
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const paths = getAllPostIds()
+  const paths = await getAllPostSlugs()
 
   return {
     paths,

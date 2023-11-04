@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Menu from './Menu'
 import { Analytics } from '@vercel/analytics/react'
+
+import Menu from './Menu'
 
 export default function Layout({
   children,
