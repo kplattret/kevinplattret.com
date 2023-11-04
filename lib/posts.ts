@@ -3,7 +3,7 @@ import {
   getAllSlugsForResource,
   getSingleFileData,
   sortItemsInAscendingOrder,
-} from './utils'
+} from 'lib/utils'
 
 export async function getSortedPostsData() {
   const fileNames = getAllFileNamesForResource('posts')

@@ -1,9 +1,9 @@
+import Date from 'components/Date'
+import Layout from 'components/Layout'
+import { getSortedPostsData } from 'lib/posts'
+
 import Link from 'next/link'
 import { GetStaticProps } from 'next'
-
-import Date from '../components/Date'
-import Layout from '../components/Layout'
-import { getSortedPostsData } from '../lib/posts'
 
 const title = 'Thoughts'
 

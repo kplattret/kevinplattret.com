@@ -1,11 +1,11 @@
 import Image from 'next/image'
+import DateRange from 'components/DateRange'
+import Labels from 'components/Labels'
+import Layout from 'components/Layout'
+import { getAllBookSlugs, getBookData } from 'lib/books'
+
 import Link from 'next/link'
 import { GetStaticPaths, GetStaticProps } from 'next'
-
-import DateRange from '../../components/DateRange'
-import Labels from '../../components/Labels'
-import Layout from '../../components/Layout'
-import { getAllBookSlugs, getBookData } from '../../lib/books'
 
 export default function Book({
   bookData

@@ -1,9 +1,9 @@
+import Layout from 'components/Layout'
+import { getSortedBooksData } from 'lib/books'
+
 import Image from 'next/image'
 import Link from 'next/link'
 import { GetStaticProps } from 'next'
-
-import Layout from '../components/Layout'
-import { getSortedBooksData } from '../lib/books'
 
 const title = 'Reads'
 
