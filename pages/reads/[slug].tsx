@@ -1,10 +1,11 @@
-import DateRange from '../../components/DateRange'
 import Image from 'next/image'
-import Labels from '../../components/Labels'
-import Layout from '../../components/layout'
+import DateRange from 'components/DateRange'
+import Labels from 'components/Labels'
+import Layout from 'components/Layout'
+import { getAllBookSlugs, getBookData } from 'lib/books'
+
 import Link from 'next/link'
-import { GetStaticProps, GetStaticPaths } from 'next'
-import { getAllBookIds, getBookData } from '../../lib/books'
+import { GetStaticPaths, GetStaticProps } from 'next'
 
 export default function Book({
   bookData
@@ -18,7 +19,7 @@ export default function Book({
     bookUrl: string
     reviewUrl: string
     bookshelves: [string]
-    contentHtml: string
+    content: string
   }
 }) {
   return (
@@ -49,7 +50,7 @@ export default function Book({
         </header>
 
         <div itemProp="articleBody">
-          <div dangerouslySetInnerHTML={{ __html: bookData.contentHtml }} />
+          <div dangerouslySetInnerHTML={{ __html: bookData.content }} />
         </div>
       </article>
     </Layout>
@@ -57,7 +58,7 @@ export default function Book({
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const paths = getAllBookIds()
+  const paths = await getAllBookSlugs()
 
   return {
     paths,

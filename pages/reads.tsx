@@ -1,8 +1,9 @@
-import Layout from '../components/layout'
-import Link from 'next/link'
+import Layout from 'components/Layout'
+import { getSortedBooksData } from 'lib/books'
+
 import Image from 'next/image'
+import Link from 'next/link'
 import { GetStaticProps } from 'next'
-import { getSortedBooksData } from '../lib/books'
 
 const title = 'Reads'
 
@@ -44,7 +45,7 @@ export default function Reads({
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const allBooksData = getSortedBooksData()
+  const allBooksData = await getSortedBooksData()
 
   return {
     props: {
