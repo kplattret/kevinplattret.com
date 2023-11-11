@@ -30,7 +30,7 @@ export default function Book({
             src={bookData.image}
             width={910}
             height={390}
-            alt={bookData.title}
+            alt={`${bookData.title}, by ${bookData.author}`}
           />
         </Link>
 
