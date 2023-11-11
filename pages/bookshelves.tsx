@@ -5,12 +5,12 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { GetStaticProps } from 'next'
 
-const title = 'Reads'
+const title = 'Bookshelves'
 
 export default function Reads({
-  latestBooksData
+  allBooksData
 }: {
-  latestBooksData: {
+  allBooksData: {
     id: string
     slug: string
     image: string
@@ -22,15 +22,8 @@ export default function Reads({
     <Layout title={title}>
       <h1>{title}</h1>
 
-      <p>I do love to read. In fact, I always have at least one book going at any given time, with a
-        healthy mix of fiction and non-fiction, and inevitably quite a few technology titles. Here
-        are some of my latest reads for which I wrote a review or just some quick notes.</p>
-
-      <p>Browse my <Link href="/bookshelves">bookshelves</Link> for more or find me
-        on <Link href="https://goodreads.com/kplattret">Goodreads</Link>.</p>
-
       <ul className="book-list">
-        {latestBooksData.map(({ id, slug, image, title, author }) => (
+        {allBooksData.map(({ id, slug, image, title, author }) => (
           <li key={id}>
             <Link href={`/reads/${slug}`} className="alt">
               <Image
@@ -49,11 +42,11 @@ export default function Reads({
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const latestBooksData = await getSortedBooksData(8)
+  const allBooksData = await getSortedBooksData()
 
   return {
     props: {
-      latestBooksData
+      allBooksData
     }
   }
 }

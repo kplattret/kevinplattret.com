@@ -19,7 +19,5 @@ export async function getAllPostSlugs() {
 }
 
 export async function getPostData(slug: string) {
-  const data = await getSingleFileData(slug, 'posts', true)
-
-  return data
+  return await getSingleFileData(slug, 'posts', true)
 }
