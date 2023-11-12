@@ -110,11 +110,13 @@
     }
   }
 
-  h2 + .book-list {
-    margin-top: 0;
+  .book-year {
+    h2 {
+      margin: 0;
+    }
 
-    & > li {
-      margin-top: 0;
+    .book-list {
+      margin: 0 0 3.5rem;
     }
   }
 
