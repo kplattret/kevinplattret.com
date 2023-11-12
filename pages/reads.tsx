@@ -29,7 +29,7 @@ export default function Reads({
       <p>Browse my <Link href="/bookshelves">bookshelves</Link> for more or find me
         on <Link href="https://goodreads.com/kplattret">Goodreads</Link>.</p>
 
-      <ul className="book-list">
+      <ul className="book-list recent">
         {latestBooksData.map(({ id, slug, image, title, author }) => (
           <li key={id}>
             <Link href={`/reads/${slug}`} className="alt">
