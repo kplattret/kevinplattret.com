@@ -72,23 +72,26 @@
     display: block;
     margin-top: 2rem;
 
+    &.recent {
+      li {
+        margin: 3rem 2% 0;
+        width: 22%;
+
+        .book-image {
+          max-height: 240px;
+        }
+      }
+    }
+
     li {
       display: inline-block;
-      margin: 3rem 2% 0;
+      margin: 2rem 1% 0;
       height: 100%;
-      width: 22%;
+      width: 15%;
       vertical-align: bottom;
 
       &:first-child {
         margin-left: 0;
-      }
-
-      &:nth-child(4n) {
-        margin-right: 0;
-
-        & + li {
-          margin-left: 0;
-        }
       }
 
       .book-image {
@@ -96,7 +99,7 @@
         margin: 0 auto;
         width: auto;
         height: auto;
-        max-height: 240px;
+        max-height: 160px;
         opacity: .8;
         transition: all .02s ease-out;
       }

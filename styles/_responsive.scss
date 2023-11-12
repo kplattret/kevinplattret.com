@@ -1,3 +1,33 @@
+@media only screen and (min-width: 600px) {
+  .content {
+    .book-list {
+      &.recent {
+        li {
+          &:nth-child(4n) {
+            margin-right: 0;
+
+            & + li {
+              margin-left: 0;
+            }
+          }
+        }
+      }
+
+      &:not(.recent) {
+        li {
+          &:nth-child(6n) {
+            margin-right: 0;
+
+            & + li {
+              margin-left: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 @media only screen and (max-width: 600px) {
   html {
     font-size: 50%;
@@ -22,23 +52,45 @@
     }
 
     .book-list {
-      text-align: center;
+      &.recent {
+        text-align: center;
 
-      li {
-        margin-right: 3%;
-        margin-left: 3%;
-        width: 33%;
+        li {
+          margin-right: 3%;
+          margin-left: 3%;
+          width: 33%;
 
-        &:nth-child(2n) {
-          margin-right: 0;
-
-          & + li {
+          &:first-child {
             margin-left: 0;
           }
-        }
 
-        .book-image {
-          width: auto;
+          &:nth-child(2n) {
+            margin-right: 0;
+
+            & + li {
+              margin-left: 0;
+            }
+          }
+        }
+      }
+
+      &:not(.recent) {
+        li {
+          margin-right: 2%;
+          margin-left: 2%;
+          width: 22%;
+
+          &:first-child {
+            margin-left: 0;
+          }
+
+          &:nth-child(4n) {
+            margin-right: 0;
+
+            & + li {
+              margin-left: 0;
+            }
+          }
         }
       }
     }
@@ -58,8 +110,8 @@
       display: inline-block;
     }
 
-    nav {
-      float: none !important;
+    .navigation {
+      float: none;
       margin-top: 2rem;
       width: 100%;
       text-align: center;
@@ -70,17 +122,19 @@
     }
   }
 
-  .book-list li,
-  article > .book-image {
-    width: 43% !important;
-  }
+  .content {
+    .book-list.recent li,
+    article > .book-image {
+      width: 43%;
+    }
 
-  article > .book-image {
-    display: block !important;
-    margin: 6rem auto 3.5rem !important;
+    article > .book-image {
+      display: block;
+      margin: 6rem auto 3.5rem;
 
-    & + header {
-      width: 100% !important;
+      & + header {
+        width: 100%;
+      }
     }
   }
 }
