@@ -59,6 +59,8 @@ export function getAllSlugsForResource(resourceType: string) {
 }
 
 export function groupItemsByYear(items: object[]) {
+  var finishedYear = ({ finishedOn }) => finishedOn.slice(0, 4)
+
   // TODO: use Object.groupBy once added to ESNext
   return groupBy(items, finishedYear)
 }
@@ -82,8 +84,4 @@ async function processContent(content: string) {
 
 function getSlugFromFileName(fileName: string) {
   return fileName.replace(/\.md$/, '').substring(11)
-}
-
-function finishedYear({ finishedOn }) {
-  return finishedOn.slice(0, 4)
 }
