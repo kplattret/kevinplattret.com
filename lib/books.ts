@@ -2,6 +2,7 @@ import {
   getAllFileNamesForResource,
   getAllSlugsForResource,
   getSingleFileData,
+  groupItemsByYear,
   sortItemsInAscendingOrder,
 } from 'lib/utils'
 
@@ -13,7 +14,7 @@ export async function getSortedBooksData(limit?: number) {
   const sortedBooksData = sortItemsInAscendingOrder(allBooksData, 'finishedOn')
   const limitedBooksData = limit > 0 ? sortedBooksData.slice(0, limit) : sortedBooksData
 
-  return limitedBooksData
+  return limitedBooksData.length > 8 ? groupItemsByYear(limitedBooksData) : limitedBooksData
 }
 
 export async function getAllBookSlugs() {

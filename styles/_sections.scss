@@ -110,6 +110,14 @@
     }
   }
 
+  h2 + .book-list {
+    margin-top: 0;
+
+    & > li {
+      margin-top: 0;
+    }
+  }
+
   .book-image {
     display: inline-block;
     margin: 1rem 4% 1.5rem 0;
