@@ -1,5 +1,6 @@
+import Labels from 'components/Labels'
 import Layout from 'components/Layout'
-import { getSortedBooksData } from 'lib/books'
+import { getBookshelvesWithCount, getSortedBooksData } from 'lib/books'
 
 import Image from 'next/image'
 import Link from 'next/link'
@@ -10,7 +11,8 @@ const title = 'Bookshelves'
 
 export default function Reads({
   allBooksData,
-  allBooksYears
+  allBooksYears,
+  allBookshelvesWithCount
 }: {
   allBooksData: {
     id: string
@@ -20,10 +22,15 @@ export default function Reads({
     author: string
   }[]
   allBooksYears?: string[]
+  allBookshelvesWithCount: {
+    _: number
+  }
 }) {
   return (
     <Layout title={title}>
       <h1>{title}</h1>
+
+      <Labels list={allBookshelvesWithCount} />
 
       {allBooksYears ? allBooksYears.map(year => (
         <div key={year} className="book-year">
@@ -69,11 +76,13 @@ export default function Reads({
 export const getStaticProps: GetStaticProps = async () => {
   const allBooksData = await getSortedBooksData()
   const allBooksYears = isArray(allBooksData) ? null : Object.keys(allBooksData).sort().reverse()
+  const allBookshelvesWithCount = await getBookshelvesWithCount()
 
   return {
     props: {
       allBooksData,
-      allBooksYears
+      allBooksYears,
+      allBookshelvesWithCount
     }
   }
 }
