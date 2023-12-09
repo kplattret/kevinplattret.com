@@ -3,6 +3,7 @@ import Menu from 'components/Menu'
 import Head from 'next/head'
 import Link from 'next/link'
 import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 export default function Layout({
   children,
@@ -44,6 +45,7 @@ export default function Layout({
       </footer>
 
       <Analytics />
+      <SpeedInsights />
     </>
   )
 }
