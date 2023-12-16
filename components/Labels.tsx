@@ -6,7 +6,9 @@ export default function Labels({ list }: { list: [string] | { _: number } }) {
     <ul className="book-labels">
       {isArray(list) ? (
         list.map((label: string) => (
-          <li key={`label-${label}`}>{formatLabel(label)}</li>
+          <li key={`label-${label}`}>
+            <Link href={`/bookshelves/${label}`}>{formatLabel(label)}</Link>
+          </li>
         ))
       ) : (
         <>
