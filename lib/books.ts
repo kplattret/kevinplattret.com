@@ -14,7 +14,7 @@ export async function getSortedBooksData(limit?: number) {
   const sortedBooksData = sortItemsInAscendingOrder(allBooksData, 'finishedOn')
   const limitedBooksData = limit > 0 ? sortedBooksData.slice(0, limit) : sortedBooksData
 
-  return limitedBooksData.length > 24 ? groupItemsByYear(limitedBooksData) : limitedBooksData
+  return limitedBooksData.length > 30 ? groupItemsByYear(limitedBooksData) : limitedBooksData
 }
 
 export async function getBookshelvesWithCount() {
