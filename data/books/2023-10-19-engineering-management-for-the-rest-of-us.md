@@ -18,9 +18,9 @@ admire the most and guided by my very own idea of what good management looks lik
 
 Of course I got some bits wrong along the way, while others went surprisingly well. So many
 challenges and learnings that helped me grow a tonne in that seemingly short period of time. I think
-it is the nature of this type of role, to be tricky to learn from others, ahead of time and out of
-context, because it largely depends on the environment you work in and the team you work with, the
-mission you work on, your personality and many other things in between.
+it is in the nature of this type of role, to be tricky to learn from others, ahead of time and out
+of context, because it largely depends on the environment you work in and the team you work with,
+the mission you work on, your personality and many other things in between.
 
 Having said that, feeling well prepared and equipped to become a manager will go a long way, and
 Sarah Drasner proves to be an outstanding guide for this sinuous journey. In *Engineering Management

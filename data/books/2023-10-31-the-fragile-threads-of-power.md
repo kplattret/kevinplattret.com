@@ -21,10 +21,10 @@ detail, with plenty of subtleties and cascading flashbacks that help contextuali
 
 The one thing I particularly love about this book is that the author introduced three prominent
 characters, all three female and all three powerful. There are some parallels between them, but also
-lot of ambiguity around them, which suggests that they are key to the development and outcome of the
-story. Throughout the chapters, there is a palpable uncertainty and tension building up. While some
-mysteries do get unravelled by the end of this first book, others provide a solid foundation for the
-ones to follow.
+a lot of ambiguity around them, which suggests that they are key to the development and outcome of
+the story. Throughout the chapters, there is a palpable uncertainty and tension building up. While
+some mysteries do get unravelled by the end of this first book, others provide a solid foundation
+for the ones to follow.
 
 It's wonderful to see V.E. Schwab's style evolve and mature over the years. I feel like she's really
 mastered something here – this new work embraces the zeitgeist of the present time. There is no
