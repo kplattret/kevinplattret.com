@@ -28,10 +28,11 @@ export default function Layout({
 
       <header className="header">
         <Link href="/" className="alt">Kevin Plattret</Link>
+
         <Menu items={[
           ["reads", "^/(reads|bookshelves)"],
-          ["thoughts"],
-          ["work"]
+          ["thoughts", "^/thoughts"],
+          ["work", "^/work"]
         ]} />
       </header>
 
