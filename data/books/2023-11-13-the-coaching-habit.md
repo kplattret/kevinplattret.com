@@ -19,7 +19,7 @@ compared to offering advice outright.
 > "What's the real challenge here for you?" is the question that will help slow down the rush to
 > action, so you spend time solving the real problem, not just the first problem.
 >
-> – Michael Bungay Stanier, [The Coaching Habit](https://goodreads.com/book/show/36684893)
+> — Michael Bungay Stanier, [The Coaching Habit](https://goodreads.com/book/show/36684893)
 
 The author presents seven questions as complementary tools to make sure that every one-on-one
 conversation you have brings value to both parties involved. Seven questions to master in order to
@@ -30,7 +30,7 @@ a lot more effective and yield better results than the ones you could offer them
 > Your job as a manager and a leader is to help create the space for people to have learning moments
 > [through their work].
 >
-> – Michael Bungay Stanier, [The Coaching Habit](https://goodreads.com/book/show/36684893)
+> — Michael Bungay Stanier, [The Coaching Habit](https://goodreads.com/book/show/36684893)
 
 The promise of the impact those coaching questions can have is diligently supported by relevant
 research, which I found quite useful. Included are some good tips on forming new habits, a little
