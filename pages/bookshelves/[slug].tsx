@@ -30,7 +30,10 @@ export default function Reads({
     <Layout title={`Bookshelf: ${bookshelfName}`}>
       <h1>Bookshelves</h1>
 
-      <Labels list={allBookshelvesWithCount} />
+      <Labels
+        items={allBookshelvesWithCount}
+        pathPrefix="/bookshelves"
+      />
 
       {bookshelfYears ? bookshelfYears.map(year => (
         <div key={year} className="book-year">

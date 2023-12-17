@@ -1,3 +1,5 @@
+import { formatAsTitle, getActiveClass } from 'lib/utils-ui'
+
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
@@ -6,19 +8,16 @@ export default function Menu({
 }: {
   items: string[][]
 }) {
-  const pathname = usePathname()
+  const path = usePathname()
 
   return (
     <nav className="navigation" >
       <ul>
-        {items.map(item => {
+        {items.map(([slug, regex]) => {
           return (
-            <li key={item[0]}>
-              <Link
-                href={`/${item[0]}`}
-                className={`alt ${getActiveClass(pathname, item[0], item[1])}`}
-              >
-                {capitalise(item[0])}
+            <li key={slug}>
+              <Link href={`/${slug}`} className={`alt ${getActiveClass(path, regex)}`}>
+                {formatAsTitle(slug)}
               </Link>
             </li>
           )
@@ -26,14 +25,4 @@ export default function Menu({
       </ul>
     </nav >
   )
-}
-
-function getActiveClass(pathname: string, name: string, regex?: string) {
-  const isActive = regex ? pathname.match(new RegExp(regex)) : pathname.startsWith(`/${name}`)
-
-  return isActive ? "active" : ""
-}
-
-function capitalise(word: string) {
-  return word.charAt(0).toUpperCase() + word.slice(1)
 }
