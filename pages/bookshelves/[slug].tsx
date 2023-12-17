@@ -1,6 +1,11 @@
 import Labels from 'components/Labels'
 import Layout from 'components/Layout'
-import { getAllBookshelfSlugs, getBookshelvesWithCount, getSortedBooksData } from 'lib/books'
+import {
+  getAllBookshelfSlugs,
+  getBookshelvesDictionary,
+  getBookshelvesWithCount,
+  getSortedBooksData
+} from 'lib/books'
 
 import Image from 'next/image'
 import Link from 'next/link'
@@ -11,7 +16,8 @@ export default function Reads({
   allBookshelvesWithCount,
   bookshelfData,
   bookshelfName,
-  bookshelfYears
+  bookshelfYears,
+  bookshelvesDictionary
 }: {
   allBookshelvesWithCount: {
     _: number
@@ -25,6 +31,9 @@ export default function Reads({
   }[]
   bookshelfName: string
   bookshelfYears?: string[]
+  bookshelvesDictionary: {
+    _: string
+  }
 }) {
   return (
     <Layout title={`Bookshelf: ${bookshelfName}`}>
@@ -33,6 +42,7 @@ export default function Reads({
       <Labels
         items={allBookshelvesWithCount}
         pathPrefix="/bookshelves"
+        dictionary={bookshelvesDictionary}
       />
 
       {bookshelfYears ? bookshelfYears.map(year => (
@@ -90,13 +100,15 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const allBookshelvesWithCount = await getBookshelvesWithCount()
   const bookshelfData = await getSortedBooksData(null, bookshelfName)
   const bookshelfYears = isArray(bookshelfData) ? null : Object.keys(bookshelfData).sort().reverse()
+  const bookshelvesDictionary = await getBookshelvesDictionary()
 
   return {
     props: {
       allBookshelvesWithCount,
       bookshelfData,
       bookshelfName,
-      bookshelfYears
+      bookshelfYears,
+      bookshelvesDictionary
     }
   }
 }

@@ -8,7 +8,7 @@ review_url: "https://goodreads.com/review/show/3198106981"
 bookshelves:
   - "french"
   - "non-fiction"
-  - "biography"
+  - "biographies"
 ---
 
 Je découvre Romain Gary à travers cet entretien autobiographique. Un tour d'horizon rapide et pour

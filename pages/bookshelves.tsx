@@ -1,6 +1,6 @@
 import Labels from 'components/Labels'
 import Layout from 'components/Layout'
-import { getBookshelvesWithCount, getSortedBooksData } from 'lib/books'
+import { getBookshelvesDictionary, getBookshelvesWithCount, getSortedBooksData } from 'lib/books'
 
 import Image from 'next/image'
 import Link from 'next/link'
@@ -12,7 +12,8 @@ const title = 'Bookshelves'
 export default function Reads({
   allBooksData,
   allBooksYears,
-  allBookshelvesWithCount
+  allBookshelvesWithCount,
+  bookshelvesDictionary
 }: {
   allBooksData: {
     id: string
@@ -25,6 +26,9 @@ export default function Reads({
   allBookshelvesWithCount: {
     _: number
   }
+  bookshelvesDictionary: {
+    _: string
+  }
 }) {
   return (
     <Layout title={title}>
@@ -33,6 +37,7 @@ export default function Reads({
       <Labels
         items={allBookshelvesWithCount}
         pathPrefix="/bookshelves"
+        dictionary={bookshelvesDictionary}
       />
 
       {allBooksYears ? allBooksYears.map(year => (
@@ -80,12 +85,14 @@ export const getStaticProps: GetStaticProps = async () => {
   const allBooksData = await getSortedBooksData()
   const allBooksYears = isArray(allBooksData) ? null : Object.keys(allBooksData).sort().reverse()
   const allBookshelvesWithCount = await getBookshelvesWithCount()
+  const bookshelvesDictionary = await getBookshelvesDictionary()
 
   return {
     props: {
       allBooksData,
       allBooksYears,
-      allBookshelvesWithCount
+      allBookshelvesWithCount,
+      bookshelvesDictionary
     }
   }
 }
