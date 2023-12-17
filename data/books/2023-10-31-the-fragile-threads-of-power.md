@@ -8,7 +8,6 @@ review_url: "https://goodreads.com/review/show/5743301268"
 bookshelves:
   - "fiction"
   - "fantasy"
-  - "magic"
   - "queer"
 ---
 

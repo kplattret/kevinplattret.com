@@ -9,7 +9,6 @@ bookshelves:
   - "fiction"
   - "theatre"
   - "fantasy"
-  - "magic"
 ---
 
 I thoroughly enjoyed it! So good to be back into the fantastic world of J.K. Rowling after not

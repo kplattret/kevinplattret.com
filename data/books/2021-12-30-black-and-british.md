@@ -8,7 +8,6 @@ review_url: "https://goodreads.com/review/show/3879174980"
 bookshelves:
   - "non-fiction"
   - "history"
-  - "race"
   - "politics"
 ---
 
