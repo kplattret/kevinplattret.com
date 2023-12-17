@@ -8,7 +8,7 @@ review_url: "https://goodreads.com/review/show/4426973088"
 bookshelves:
   - "french"
   - "non-fiction"
-  - "biography"
+  - "biographies"
   - "feminism"
   - "sociology"
 ---

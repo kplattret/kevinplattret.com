@@ -6,6 +6,9 @@ import {
   sortItemsInAscendingOrder,
 } from 'lib/utils'
 
+import fs from 'fs'
+import YAML from 'yaml'
+
 export async function getSortedBooksData(limit?: number, bookshelf?: string) {
   const fileNames = getAllFileNamesForResource('books')
   const allBooksData = await Promise.all(fileNames.map(fileName => {
@@ -54,6 +57,12 @@ export function filterBooksByBookshelf(booksData: object[], bookshelfName: strin
   return booksData.filter((book) =>
     book["bookshelves"].includes(bookshelfName)
   )
+}
+
+export async function getBookshelvesDictionary() {
+  const labelsDictionary = fs.readFileSync('data/labels.yml', 'utf8')
+
+  return YAML.parse(labelsDictionary)["bookshelves"]
 }
 
 async function getBookshelvesData() {

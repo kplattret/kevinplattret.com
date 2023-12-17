@@ -6,10 +6,14 @@ import { usePathname } from 'next/navigation'
 
 export default function Labels({
   items,
-  pathPrefix
+  pathPrefix,
+  dictionary
 }: {
   items: [string] | { _: number }
-  pathPrefix
+  pathPrefix: string,
+  dictionary: {
+    _: string
+  }
 }) {
   const path = usePathname()
 
@@ -18,7 +22,7 @@ export default function Labels({
       {isArray(items) ? (
         items.map((label: string) => (
           <li key={`label-${label}`}>
-            <Link href={`${pathPrefix}/${label}`}>{formatLabel(label)}</Link>
+            <Link href={`${pathPrefix}/${label}`}>{formatLabel(label, dictionary)}</Link>
           </li>
         ))
       ) : (
@@ -35,7 +39,7 @@ export default function Labels({
                 href={`${pathPrefix}/${label}`}
                 className={getActiveClass(path, `^${pathPrefix}/${label}$`)}
               >
-                {formatLabel(label)} <span>{items[label]}</span>
+                {formatLabel(label, dictionary)} <span>{items[label]}</span>
               </Link>
             </li>
           ))}
@@ -45,6 +49,6 @@ export default function Labels({
   )
 }
 
-function formatLabel(string: string) {
-  return formatAsTitle(string.replace("-", " "))
+function formatLabel(string: string, dictionary: { _: string }) {
+  return dictionary[string] || formatAsTitle(string.replace("-", " "))
 }
