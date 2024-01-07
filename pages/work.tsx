@@ -9,16 +9,17 @@ export default function Work() {
     <Layout title={title}>
       <h1>{title}</h1>
 
-      <h2>TrueLayer</h2>
+      <h2>TrueLayer <span>2020–present</span></h2>
 
       <p>I first heard about open banking in 2020, which was a little late considering that the
         first game-changing regulations were adopted by the European Parliament back in 2015. I was
         quickly convinced. I could see how such a move would shake things up and considerably help
         change the way we interact with money for the better.</p>
 
-      <p>In my first year at TrueLayer, I worked on the data APIs. By leveraging bank account data
-        and machine learning techniques, we created powerful products such as affordability
-        insights, transaction classification and account verification.</p>
+      <p>In my first year at <a href="https://truelayer.com">TrueLayer</a>, I worked on the data
+        APIs. By leveraging bank account data and machine learning techniques, we created powerful
+        products such as affordability insights, transaction classification and account
+        verification.</p>
 
       <p>Then I decided to move back to working on payments. I built a team to focus on solving the
         challenge of non-instant bank transfers in the Single Euro Payments Area. We designed a
@@ -27,11 +28,12 @@ export default function Work() {
         that all the payments we facilitate are compliant with the various financial regulations.
         Replacing payment cards is quite a bold mission, but it&apos;s a fun one too!</p>
 
-      <h2>Deliveroo</h2>
+      <h2>Deliveroo <span>2016–2019</span></h2>
 
-      <p>During my three and a half years at Deliveroo, I worked on a wide range of challenges
-        across several different teams. Most of those revolved around improving the user experience
-        for customers, riders, restaurants and internal teams alike.</p>
+      <p>During my three and a half years at <a href="https://deliveroo.co.uk">Deliveroo</a>, I
+        worked on a wide range of challenges across several different teams. Most of those revolved
+        around improving the user experience for customers, riders, restaurants and internal teams
+        alike.</p>
 
       <p>The first large project I worked on after joining, was creating the administration
         dashboard for <a href="https://deliveroo.co.uk/for-work">Deliveroo for Work</a>. It allows
@@ -50,7 +52,7 @@ export default function Work() {
         the foundations for a rewards system, to help the business incentivise and recognise riders
         for their loyalty.</p>
 
-      <h2>3beards</h2>
+      <h2>3beards <span>2013–2016</span></h2>
 
       <p>When I joined the <a href="https://3beards.github.io">3beards</a> in 2013, I knew I was in
         for something different, but I certainly didn&apos;t expect the tremendous adventure it
@@ -69,7 +71,7 @@ export default function Work() {
       <p>I spent <Link href="/thoughts/my-1000-days-at-3beards">1000 days at 3beards</Link> and they
         were all quite special.</p>
 
-      <h2>Top Left Design</h2>
+      <h2>Top Left Design <span>2011–2013</span></h2>
 
       <p>Every career starts somewhere and mine did
         at <a href="https://topleftdesign.com">Top Left Design</a>, a web design studio based in the
