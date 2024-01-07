@@ -11,9 +11,9 @@ export default function Home() {
           learning something new.</p>
       </div>
 
-      <p>Most recently, I worked across several teams
-        at <Link href="/work">Deliveroo</Link> since 2016, focusing primarily on making the delivery
-        network more resilient and helping riders get paid as quickly as possible.</p>
+      <p>Currently, I work at <Link href="/work">TrueLayer</Link>, changing the way the world pays
+        for the better. I lead the Payments Risk team, focusing primarily on enabling instant and
+        compliant open-banking payments.</p>
 
       <p>When I&apos;m not writing <a href="https://github.com/kplattret">code</a>, I have quite a
         few activities that fight for my attention. Among other things I enjoy reading books,
