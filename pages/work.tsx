@@ -9,6 +9,24 @@ export default function Work() {
     <Layout title={title}>
       <h1>{title}</h1>
 
+      <h2>TrueLayer</h2>
+
+      <p>I first heard about open banking in 2020, which was a little late considering that the
+        first game-changing regulations were adopted by the European Parliament back in 2015. I was
+        quickly convinced. I could see how such a move would shake things up and considerably help
+        change the way we interact with money for the better.</p>
+
+      <p>In my first year at TrueLayer, I worked on the data APIs. By leveraging bank account data
+        and machine learning techniques, we created powerful products such as affordability
+        insights, transaction classification and account verification.</p>
+
+      <p>Then I decided to move back to working on payments. I built a team to focus on solving the
+        challenge of non-instant bank transfers in the Single Euro Payments Area. We designed a
+        system that allows to mitigate the risks associated with payments not succeeding, while
+        preserving a great user experience as much as possible. Part of that work is also to ensure
+        that all the payments we facilitate are compliant with the various financial regulations.
+        Replacing payment cards is quite a bold mission, but it&apos;s a fun one too!</p>
+
       <h2>Deliveroo</h2>
 
       <p>During my three and a half years at Deliveroo, I worked on a wide range of challenges
@@ -16,9 +34,9 @@ export default function Work() {
         for customers, riders, restaurants and internal teams alike.</p>
 
       <p>The first large project I worked on after joining, was creating the administration
-        dashboard for <a href="https://deliveroo.co.uk/business">Deliveroo for Business</a>. It
-        allows corporate customers to manage their account, from employee allowance groups to large
-        group orders, including monthly billing.</p>
+        dashboard for <a href="https://deliveroo.co.uk/for-work">Deliveroo for Work</a>. It allows
+        corporate customers to manage their account, from employee allowance groups to large group
+        orders, including monthly billing.</p>
 
       <p>Later, I spent a couple of years focusing on making the delivery network more resilient. My
         team and I built a real-time monitoring system, which we designed to automatically detect
