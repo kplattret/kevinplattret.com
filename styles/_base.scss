@@ -55,6 +55,11 @@ h1 {
 
 h2 {
   font-size: 3rem;
+
+  span {
+    font-size: 2rem;
+    color: $color-secondary;
+  }
 }
 
 h3 {
