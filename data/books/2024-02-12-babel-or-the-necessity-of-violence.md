@@ -28,11 +28,14 @@ setting of Victorian England, I liked the fantasy dimension, which some decried 
 of world-building, but which I thought gave an intriguing and pleasant twist to the plot.
 
 R.F. Kuang takes us to the heart of the matter, at a time when colonialism, sexism and social
-classes impacted and undermined the lives of many. We navigate it through the eyes of four student
-friends, coming from diverse cultures and backgrounds, each granted a lot of privilege yet each
-victim of discrimination, of one form or another. I found their personalities to be elaborate, their
-respective condition well captured in their character, their youth exacerbating the spirit of
-rebellion, highlighting the glaring injustice, giving rise to even more empathy if possible. 
+classes impacted and undermined the lives of many, even more so than today. The practice of silver-
+working leading to deep societal changes akin to the ones brought by industrialisation, robotisation
+and possibly the impending artificial intelligence revolution, deepening inequalities at large. We
+navigate it through the eyes of four student friends, coming from diverse cultures and backgrounds,
+each granted a lot of privilege yet each victim of discrimination, of one form or another. I found
+their personalities to be elaborate, their respective condition well captured in their character,
+their youth exacerbating the spirit of rebellion, highlighting the glaring injustice, giving rise to
+even more empathy if possible.
 
 Two thirds into it, I simply couldn't put the book down. The story kept building up relentlessly to
 an insufferable climax. When the dust finally settles, the ramifications of the final events are
