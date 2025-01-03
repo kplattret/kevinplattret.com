@@ -1,3 +1,5 @@
+@use "variables" as *;
+
 @media only screen and (prefers-color-scheme: light) {
   html {
     background: $color-light-background;

@@ -1,13 +1,13 @@
+import fs from 'fs'
+import YAML from 'yaml'
+
 import {
   getAllFileNamesForResource,
   getAllSlugsForResource,
   getSingleFileData,
   groupItemsByYear,
   sortItemsInAscendingOrder,
-} from 'lib/utils'
-
-import fs from 'fs'
-import YAML from 'yaml'
+} from '@/lib/utils'
 
 export async function getSortedBooksData(limit?: number, bookshelf?: string) {
   const fileNames = getAllFileNamesForResource('books')
@@ -24,11 +24,12 @@ export async function getSortedBooksData(limit?: number, bookshelf?: string) {
 export async function getBookshelvesWithCount() {
   const bookshelvesCounts: { _?: number } = {}
 
-  for (let [bookshelf, books] of Object.entries(await getBookshelvesData())) {
+  for (const [bookshelf, books] of Object.entries(await getBookshelvesData())) {
     bookshelvesCounts[bookshelf] = books.length
   }
 
   const allBookshelvesSortedByCount = Object.fromEntries(
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     Object.entries(bookshelvesCounts).sort().sort(([_k1, v1], [_k2, v2]) => v2 - v1)
   )
 
@@ -76,8 +77,11 @@ async function getBookshelvesData() {
     bookshelvesData["all"].push(book["slug"])
 
     book["bookshelves"].forEach((bookshelf: string) => {
-      bookshelvesData.hasOwnProperty(bookshelf) ? bookshelvesData[bookshelf].push(book["slug"]) :
+      if (bookshelvesData.hasOwnProperty(bookshelf)) {
+        bookshelvesData[bookshelf].push(book["slug"])
+      } else {
         (bookshelvesData[bookshelf] = [book["slug"]])
+      }
     })
   })
 
