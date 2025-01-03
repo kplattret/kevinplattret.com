@@ -17,7 +17,7 @@ and his family went through felt both astonishing and humbling to me. A life les
 
 > I thought: _If I wake up and can walk, I will never take anything for granted, ever again._
 >
-> – Henry Fraser, [The Little Big Things](https://goodreads.com/book/show/35268861)
+> — Henry Fraser, [The Little Big Things](https://goodreads.com/book/show/35268861)
 
 I don't want to take things for granted, and certainly not my mobility, but I often do. Privileges
 come in all shapes and sizes, something important to remind ourselves of frequently. Not to
