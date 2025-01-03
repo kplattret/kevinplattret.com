@@ -1,8 +1,8 @@
-import { formatAsTitle, getActiveClass } from 'lib/utils-ui'
-
 import Link from 'next/link'
 import isArray from 'lodash/isArray'
 import { usePathname } from 'next/navigation'
+
+import { formatAsTitle, getActiveClass } from '@/lib/utils-ui'
 
 export default function Labels({
   items,

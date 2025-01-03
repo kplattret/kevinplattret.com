@@ -1,11 +1,12 @@
-import Labels from 'components/Labels'
-import Layout from 'components/Layout'
-import { getBookshelvesDictionary, getBookshelvesWithCount, getSortedBooksData } from 'lib/books'
-
 import Image from 'next/image'
 import Link from 'next/link'
 import isArray from 'lodash/isArray'
 import { GetStaticProps } from 'next'
+
+import { getBookshelvesDictionary, getBookshelvesWithCount, getSortedBooksData } from '@/lib/books'
+
+import Labels from '@/components/Labels'
+import Layout from '@/components/Layout'
 
 const title = 'Bookshelves'
 

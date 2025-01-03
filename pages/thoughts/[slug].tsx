@@ -1,9 +1,10 @@
 import Image from 'next/image'
-import Date from 'components/Date'
-import Layout from 'components/Layout'
-import { getAllPostSlugs, getPostData } from 'lib/posts'
-
 import { GetStaticPaths, GetStaticProps } from 'next'
+
+import { getAllPostSlugs, getPostData } from '@/lib/posts'
+
+import Date from '@/components/Date'
+import Layout from '@/components/Layout'
 
 export default function Post({
   postData

@@ -1,16 +1,17 @@
-import Labels from 'components/Labels'
-import Layout from 'components/Layout'
+import Image from 'next/image'
+import Link from 'next/link'
+import isArray from 'lodash/isArray'
+import { GetStaticPaths, GetStaticProps } from 'next'
+
 import {
   getAllBookshelfSlugs,
   getBookshelvesDictionary,
   getBookshelvesWithCount,
   getSortedBooksData
-} from 'lib/books'
+} from '@/lib/books'
 
-import Image from 'next/image'
-import Link from 'next/link'
-import isArray from 'lodash/isArray'
-import { GetStaticPaths, GetStaticProps } from 'next'
+import Labels from '@/components/Labels'
+import Layout from '@/components/Layout'
 
 export default function Reads({
   allBookshelvesWithCount,
