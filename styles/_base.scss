@@ -1,3 +1,5 @@
+@use "variables" as *;
+
 html {
   font-size: 62.5%; // equals to 10px
   line-height: 1.4;
@@ -84,8 +86,8 @@ hr {
 
 blockquote {
   margin: 3rem 6rem 3rem 4rem;
-  padding: .5rem 0 .5rem 2rem;
-  border-left: solid .6rem $color-link;
+  padding: 0.5rem 0 0.5rem 2rem;
+  border-left: solid 0.6rem $color-link;
 
   p {
     margin: 0;
